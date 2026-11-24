@@ -1,0 +1,5 @@
+Relative Humidity (RH) Bin,Sample Count (N),Raw R2,Raw RMSE (ug/m3),Calibrated R2,Calibrated RMSE (ug/m3)
+RH < 50%,320,0.784,14.20,0.941,6.85
+50% <= RH < 70%,450,0.692,18.65,0.932,7.42
+70% <= RH < 85% (Deliquescence),280,0.485,31.10,0.915,9.68
+RH >= 85% (Supersaturation / Fog),150,0.312,42.80,0.884,11.95

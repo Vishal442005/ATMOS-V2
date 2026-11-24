@@ -1,0 +1,5 @@
+Model / Technique,Target,R2,RMSE (ug/m3),MAE (ug/m3),Max Error (ug/m3)
+Raw Plantower PMS5003,PM2.5,0.582,24.64,18.21,68.42
+Multiple Linear Regression (MLR),PM2.5,0.741,18.12,13.54,49.18
+Random Forest Regressor (RF),PM2.5,0.881,11.45,8.24,29.75
+Proposed On-Chip INT8 Monotonic GBDT,PM2.5,0.924,8.73,5.92,21.30

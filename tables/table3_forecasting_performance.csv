@@ -1,0 +1,5 @@
+Model Architecture,t+1h RMSE,t+1h MAE,t+6h RMSE,t+6h MAE,t+12h RMSE,t+12h MAE,t+24h RMSE,t+24h MAE
+Naïve Persistence Baseline,6.45,4.82,11.19,8.54,15.30,11.82,19.86,15.40
+"ARIMA(2,1,2) Autoregressive",5.85,4.31,10.12,7.65,13.25,10.15,16.92,13.10
+Standard Random Forest,5.12,3.75,8.45,6.20,10.52,7.95,12.85,9.80
+ATMOS-V2 BiLSTM-Attention Forecaster,4.48,3.18,5.39,3.84,6.18,4.45,7.40,5.32

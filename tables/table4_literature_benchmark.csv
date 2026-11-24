@@ -1,0 +1,8 @@
+System / Study,Year,Hardware Cost,Power Architecture,Reference Instrument,R2 (PM2.5),Forecasting Capacity
+Zheng et al. [12],2018,~$120,Grid / Mains Only,Met One BAM-1020 FEM,0.68-0.72,None (Static Sensing)
+Magi et al. [26],2020,~$250,Grid / Mains Only,TEOM Federal Standard,0.77,None (Static Sensing)
+Kumar et al. [7],2023,~$95,Solar 5W + Lead-Acid,Portable Optical FEM,0.81,None (Static Sensing)
+Ali et al. [27],2024,~$80,Solar 3W + 18650,Co-located Reference,0.84,1h-3h ARIMA Baseline
+Sengupta et al. [15],2026,~$350,Grid / Mains Only,UK AURN Reference,0.89,None (Calibration Focus)
+Yun et al. [16],2026,~$110,USB 5V Mains,Indoor Reference Standard,0.86,None (Transferability Focus)
+ATMOS-V2 (This Work),2026,<$65,Solar 2W + 18650 Li-ion,Met One BAM-1020 FEM,0.924,Multi-Horizon 1h-24h LSTM
