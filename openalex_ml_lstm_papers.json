@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Assessing Machine Learning model and Transfer Learning for calibration of air quality Low-Cost Sensor Networks",
+    "year": 2025,
+    "venue": "HAL",
+    "citations": 0,
+    "doi": null,
+    "pdf_url": "https://hal.science/hal-05540219"
+  },
+  {
+    "title": "Enhancing low-cost air quality monitoring using LSTM networks for in-field sensor calibration",
+    "year": 2026,
+    "venue": "Unknown",
+    "citations": 0,
+    "doi": "https://doi.org/10.21175/rad.abstr.book.2026.12.3",
+    "pdf_url": "https://doi.org/10.21175/rad.abstr.book.2026.12.3"
+  },
+  {
+    "title": "Field Calibration of a Low-Cost Air Quality Monitoring Device in an Urban Background Site Using Machine Learning Models",
+    "year": 2023,
+    "venue": "Atmosphere",
+    "citations": 28,
+    "doi": "https://doi.org/10.3390/atmos14020368",
+    "pdf_url": "https://www.mdpi.com/2073-4433/14/2/368/pdf?version=1676293060"
+  },
+  {
+    "title": "Machine Learning\u2013Based Calibration and Performance Evaluation of Low-Cost Internet of Things Air Quality Sensors",
+    "year": 2025,
+    "venue": "Sensors",
+    "citations": 70,
+    "doi": "https://doi.org/10.3390/s25103183",
+    "pdf_url": "https://www.mdpi.com/1424-8220/25/10/3183/pdf?version=1747625370"
+  },
+  {
+    "title": "A Machine Learning-Based Calibration Framework for Low-Cost PM2.5 Sensors Integrating Meteorological Predictors",
+    "year": 2025,
+    "venue": "Chemosensors",
+    "citations": 9,
+    "doi": "https://doi.org/10.3390/chemosensors13120425",
+    "pdf_url": "https://www.mdpi.com/2227-9040/13/12/425/pdf"
+  },
+  {
+    "title": "Calibration of Low-Cost Air Quality Sensors Using Machine Learning Models",
+    "year": 2026,
+    "venue": "Unknown",
+    "citations": 0,
+    "doi": "https://doi.org/10.5753/eniac.2026.31497",
+    "pdf_url": "https://sol.sbc.org.br/index.php/eniac/article/download/46946/46703"
+  },
+  {
+    "title": "Leveraging Temporal Information to Improve Machine Learning-Based Calibration Techniques for Low-Cost Air Quality Sensors",
+    "year": 2024,
+    "venue": "Sensors",
+    "citations": 15,
+    "doi": "https://doi.org/10.3390/s24092930",
+    "pdf_url": "https://doi.org/10.3390/s24092930"
+  },
+  {
+    "title": "A temporal deep learning framework for calibration of low-cost air quality sensors",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "citations": 1,
+    "doi": "https://doi.org/10.48550/arxiv.2604.21527",
+    "pdf_url": "https://arxiv.org/pdf/2604.21527"
+  },
+  {
+    "title": "Scalable Urban Air Quality Monitoring: Generalizable Calibration Models for Cross-City Sensor Deployment",
+    "year": 2025,
+    "venue": "ACM SIGSPATIAL International Workshop on Advances in Urban-AI (UrbanAI)",
+    "citations": 0,
+    "doi": "https://doi.org/10.1145/3764926.3771950",
+    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3764926.3771950"
+  },
+  {
+    "title": "HypeAIR: A novel framework for real-time low-cost sensor calibration for air quality monitoring in smart cities",
+    "year": 2024,
+    "venue": "Ecological Informatics",
+    "citations": 31,
+    "doi": "https://doi.org/10.1016/j.ecoinf.2024.102568",
+    "pdf_url": "https://doi.org/10.1016/j.ecoinf.2024.102568"
+  }
+]

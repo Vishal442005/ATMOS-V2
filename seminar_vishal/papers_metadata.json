@@ -1,0 +1,601 @@
+[
+  {
+    "arxiv_id": "1709.05645v1",
+    "title": "Urban Delay Tolerant Network Simulator (UDTNSim v0.1)",
+    "authors": [
+      "Sarath Babu",
+      "Gaurav Jain",
+      "B. S. Manoj"
+    ],
+    "year": "2017",
+    "summary": "Delay Tolerant Networking (DTN) is an approach to networking which handles network disruptions and high delays that may occur in many kinds of communication networks. The major reasons for high delay include partial connectivity of networks as can be seen in many types of ad hoc wireless networks with frequent network partitions, long propagation time as experienced in inter-planetary and deep space networks, and frequent link disruptions due to the mobility of nodes as observed in terrestrial wireless network environments. Experimenting network architectures, protocols, and mobility models in such real-world scenarios is difficult due to the complexities involved in the network environment. Therefore, in this document, we present the documentation of an Urban Delay Tolerant Network Simulator (UDTNSim) version 0.1, capable of simulating urban road network environments with DTN characteristics including mobility models and routing protocols. The mobility models included in this version of UDTNSim are (i) Stationary Movement, (ii) Simple Random Movement, (iii) Path Type Based Movememt, (iv) Path Memory Based Movement, (v) Path Type with Restricted Movement, and (vi) Path Type with Wait Movement. In addition to mobility models, we also provide three routing and data hand-off protocols: (i) Epidemic Routing, (ii) Superior Only Handoff, and (iii) Superior Peer Handoff. UDTNSim v0.1 is designed using object-oriented programming approach in order to provide flexibility in addition of new features to the DTN environment. UDTNSim v0.1 is distributed as an open source simulator for the use of the research community.",
+    "pdf_url": "https://arxiv.org/pdf/1709.05645v1.pdf"
+  },
+  {
+    "arxiv_id": "0912.3441v1",
+    "title": "On Space-Time Capacity Limits in Mobile and Delay Tolerant Networks",
+    "authors": [
+      "Philippe Jacquet",
+      "Bernard Mans",
+      "Georgios Rodolakis"
+    ],
+    "year": "2009",
+    "summary": "We investigate the fundamental capacity limits of space-time journeys of information in mobile and Delay Tolerant Networks (DTNs), where information is either transmitted or carried by mobile nodes, using store-carry-forward routing. We define the capacity of a journey (i.e., a path in space and time, from a source to a destination) as the maximum amount of data that can be transferred from the source to the destination in the given journey. Combining a stochastic model (conveying all possible journeys) and an analysis of the durations of the nodes' encounters, we study the properties of journeys that maximize the space-time information propagation capacity, in bit-meters per second. More specifically, we provide theoretical lower and upper bounds on the information propagation speed, as a function of the journey capacity. In the particular case of random way-point-like models (i.e., when nodes move for a distance of the order of the network domain size before changing direction), we show that, for relatively large journey capacities, the information propagation speed is of the same order as the mobile node speed. This implies that, surprisingly, in sparse but large-scale mobile DTNs, the space-time information propagation capacity in bit-meters per second remains proportional to the mobile node speed and to the size of the transported data bundles, when the bundles are relatively large. We also verify that all our analytical bounds are accurate in several simulation scenarios.",
+    "pdf_url": "https://arxiv.org/pdf/0912.3441v1.pdf"
+  },
+  {
+    "arxiv_id": "2406.03580v1",
+    "title": "Optimization of Energy Consumption in Delay-Tolerant Networks",
+    "authors": [
+      "Junran Wang",
+      "Milena Radenkovic"
+    ],
+    "year": "2024",
+    "summary": "Delay tolerant network is a network architecture and protocol suite specifically designed to handle challenging communications environments, such as deep space communications, disaster response, and remote area communications. Although DTN [1]can provide efficient and reliable data transmission in environments with high latency, unstable connections, and high bit error rates, its energy consumption optimization problem is still a challenge, especially in scenarios with limited resources.To solve this problem, this study combines the Epidemic[2] and MaxProp[3] routing protocols with Machine Learning Models to optimize the energy consumption of DTNs. Hundreds of simulations were conducted in the ONE simulator, and an external real-world dataset from San Francisco taxi mobility traces [54] was imported. Random Forest[4] and Gradient Boosting Machine (GBM)[5] models were employed for data analysis. Through optimization involving Hyperparameter Tuning and Feature Selection, the Random Forest model achieved an R-squared value of 0.53, while the GBM model achieved an R-squared value of 0.65.",
+    "pdf_url": "https://arxiv.org/pdf/2406.03580v1.pdf"
+  },
+  {
+    "arxiv_id": "1602.08455v2",
+    "title": "MPAR: A Movement Pattern-Aware Optimal Routing for Social Delay Tolerant Networks",
+    "authors": [
+      "Lei You",
+      "Jianbo Li",
+      "Changjiang Wei",
+      "Lejuan Hu"
+    ],
+    "year": "2016",
+    "summary": "Social Delay Tolerant Networks (SDTNs) are a special kind of Delay Tolerant Network (DTN) that consists of a number of mobile devices with social characteristics. The current research achievements on routing algorithms tend to separately evaluate the available profit for each prospective relay node and cannot achieve the global optimal performance in an overall perspective. In this paper, we propose a Movement Pattern-Aware optimal Routing (MPAR) for SDTNs, by choosing the optimal relay node(s) set for each message, which eventually based on running a search algorithm on a hyper-cube solution space. Concretely, the movement pattern of a group of node(s) can be extracted from the movement records of nodes. Then the set of commonly visited locations for the relay node(s) set and the destination node is obtained, by which we can further evaluate the co-delivery probability of the relay node(s) set. Both local search scheme and tabu-search scheme are utilized in finding the optimal set, and the tabu-search based routing Tabu-MPAR is proved able to guide the relay node(s) set in evolving to the optimal one. We demonstrate how the MPAR algorithm significantly outperforms the previous ones through extensive simulations, based on the synthetic SDTN mobility model.",
+    "pdf_url": "https://arxiv.org/pdf/1602.08455v2.pdf"
+  },
+  {
+    "arxiv_id": "1204.3264v1",
+    "title": "Assessing and improving an approach to delay-tolerant networking",
+    "authors": [
+      "Lloyd Wood"
+    ],
+    "year": "2012",
+    "summary": "Delay-tolerant networking (DTN) is a term invented to describe and encompass all types of long-delay, disconnected, disrupted or intermittently-connected networks, where mobility and outages or scheduled contacts may be experienced. 'DTN' is also used to refer to the Bundle Protocol, which has been proposed as the one unifying solution for disparate DTN networking scenarios, after originally being designed solely for use in deep space for the 'Interplanetary Internet.' We evaluated the Bundle Protocol by testing it in space and on the ground. We have found architectural weaknesses in the Bundle Protocol that may prevent engineering deployment of this protocol in realistic delay-tolerant networking scenarios, and have proposed approaches to address these weaknesses.",
+    "pdf_url": "https://arxiv.org/pdf/1204.3264v1.pdf"
+  },
+  {
+    "arxiv_id": "2603.01263v2",
+    "title": "A Border Gateway Protocol Extension for Distributing Endpoint Identifier Reachability Information in Delay-tolerant Networks",
+    "authors": [
+      "Marius Feldmann",
+      "Th\u00e9o Tchilinguirian",
+      "Felix Walter"
+    ],
+    "year": "2026",
+    "summary": "The Delay-Tolerant Networking (DTN) community has created solid results during the last three decades. One aspect that still requires focus, however, is the simplification of configuring systems participating in DTN communication. In this workshop paper, an approach is proposed for configuring DTN endpoint reachability. The core idea is to extend the Border Gateway Protocol (BGP), enabling it to advertise the reachability of DTN endpoints specified by Endpoint Identifiers (EIDs) via specific next-hop Convergence Layer Adapters (CLAs). The approach is mainly intended for usage in edge nodes accessible from an IP network, which communicate via a DTN gateway to a larger DTN infrastructure. It may be applied to simplify access to the Solar System Internet from hosts connected to the Internet. The feasibility of the approach has been confirmed using an implementation intended for validation purposes.",
+    "pdf_url": "https://arxiv.org/pdf/2603.01263v2.pdf"
+  },
+  {
+    "arxiv_id": "1208.0505v1",
+    "title": "Criticality of Large Delay Tolerant Networks via Directed Continuum Percolation in Space-Time",
+    "authors": [
+      "Esa Hyyti\u00e4",
+      "J\u00f6rg Ott"
+    ],
+    "year": "2012",
+    "summary": "We study delay tolerant networking (DTN) and in particular, its capacity to store, carry and forward messages so that the messages eventually reach their final destinations. We approach this broad question in the framework of percolation theory. To this end, we assume an elementary mobility model, where nodes arrive to an infinite plane according to a Poisson point process, move a certain distance L, and then depart. In this setting, we characterize the mean density of nodes required to support DTN style networking. In particular, under the given assumptions, we show that DTN is feasible when the mean node degree is greater than 4 e(g), where parameter g=L/d is the ratio of the distance L to the transmission range d, and e(g) is the critical reduced number density of tilted cylinders in a directed continuum percolation model. By means of Monte Carlo simulations, we give numerical values for e(g). The asymptotic behavior of e(g) when g tends to infinity is also derived from a fluid flow analysis.",
+    "pdf_url": "https://arxiv.org/pdf/1208.0505v1.pdf"
+  },
+  {
+    "arxiv_id": "2510.20436v1",
+    "title": "Learning Decentralized Routing Policies via Graph Attention-based Multi-Agent Reinforcement Learning in Lunar Delay-Tolerant Networks",
+    "authors": [
+      "Federico Lozano-Cuadra",
+      "Beatriz Soret",
+      "Marc Sanchez Net",
+      "Abhishek Cauligi",
+      "Federico Rossi"
+    ],
+    "year": "2025",
+    "summary": "We present a fully decentralized routing framework for multi-robot exploration missions operating under the constraints of a Lunar Delay-Tolerant Network (LDTN). In this setting, autonomous rovers must relay collected data to a lander under intermittent connectivity and unknown mobility patterns. We formulate the problem as a Partially Observable Markov Decision Problem (POMDP) and propose a Graph Attention-based Multi-Agent Reinforcement Learning (GAT-MARL) policy that performs Centralized Training, Decentralized Execution (CTDE). Our method relies only on local observations and does not require global topology updates or packet replication, unlike classical approaches such as shortest path and controlled flooding-based algorithms. Through Monte Carlo simulations in randomized exploration environments, GAT-MARL provides higher delivery rates, no duplications, and fewer packet losses, and is able to leverage short-term mobility forecasts; offering a scalable solution for future space robotic systems for planetary exploration, as demonstrated by successful generalization to larger rover teams.",
+    "pdf_url": "https://arxiv.org/pdf/2510.20436v1.pdf"
+  },
+  {
+    "arxiv_id": "2609.36156v1",
+    "title": "Traffic Congestion Awareness and On-Demand Distribution in Vehicular Delay-Tolerant Networks in California I-210 Freeway",
+    "authors": [
+      "Xiaofei Liu",
+      "Milena Radenkovic"
+    ],
+    "year": "2026",
+    "summary": "In vehicular networks under edge computing environments, vehicle-to-vehicle delay-tolerant networking (V-DTN) can disseminate congestion warnings to other vehicles via a store-carry-forward mechanism, helping them proactively choose suitable routes. However, most existing in-vehicle information dissemination methods rely on flooding or limited flooding strategies, broadcasting alerts across the entire network whenever congestion is detected. This leads to excessive redundant copies and consumes node cache space. To address this issue, this paper proposes a congestion-event- aware on-demand message dissemination mechanism. By considering the recurrence and duration of congestion, the mechanism suppresses broadcasts of short-lived, self-dissipating congestion events. Based on real-world PeMS data from California's I-210 corridor, we construct an I-210 Freeway Traffic Congestion Use Case. Experiments show that predicting congestion recurrence heavily relies on historical free-flow speed data of lanes. Without incorporating additional feature dimensions, the accuracy of modeling and comparing lane free-flow speeds across different day types outweighs the choice of machine learning models, and such patterns are difficult to reproduce in simulators. Meanwhile, congestion duration prediction serves effectively as the basis for dynamic-threshold on-demand dissemination in V-DTN, which demonstrate that machine learning-based congestion awareness combined with dynamic-threshold on-demand dissemination significantly reduces network resource consumption and network-layer congestion, enhances delivery reliability, and lowers delivery latency.",
+    "pdf_url": "https://arxiv.org/pdf/2609.36156v1.pdf"
+  },
+  {
+    "arxiv_id": "cs/0511102v1",
+    "title": "Evaluating Mobility Pattern Space Routing for DTNs",
+    "authors": [
+      "Jeremie Leguay",
+      "Timur Friedman",
+      "Vania Conan"
+    ],
+    "year": "2005",
+    "summary": "Because a delay tolerant network (DTN) can often be partitioned, the problem of routing is very challenging. However, routing benefits considerably if one can take advantage of knowledge concerning node mobility. This paper addresses this problem with a generic algorithm based on the use of a high-dimensional Euclidean space, that we call MobySpace, constructed upon nodes' mobility patterns. We provide here an analysis and the large scale evaluation of this routing scheme in the context of ambient networking by replaying real mobility traces. The specific MobySpace evaluated is based on the frequency of visit of nodes for each possible location. We show that the MobySpace can achieve good performance compared to that of the other algorithms we implemented, especially when we perform routing on the nodes that have a high connection time. We determine that the degree of homogeneity of mobility patterns of nodes has a high impact on routing. And finally, we study the ability of nodes to learn their own mobility patterns.",
+    "pdf_url": "https://arxiv.org/pdf/cs/0511102v1.pdf"
+  },
+  {
+    "arxiv_id": "cs/0504040v1",
+    "title": "DTN Routing in a Mobility Pattern Space",
+    "authors": [
+      "Jeremie Leguay",
+      "Timur Friedman",
+      "Vania Conan"
+    ],
+    "year": "2005",
+    "summary": "Routing in Delay Tolerant Networks (DTNs) benefits considerably if one can take advantage of knowledge concerning node mobility. The main contribution of this paper is the definition of a generic routing scheme for DTNs using a high-dimensional Euclidean space constructed upon nodes' mobility patterns. For example, nodes are represented as points having as coordinates their probability of being found in each possible location. We present simulation results indicating that such a scheme can be beneficial in a scenario inspired by studies done on real mobility traces. This work should open the way to further use of the virtual space formalism in DTN routing.",
+    "pdf_url": "https://arxiv.org/pdf/cs/0504040v1.pdf"
+  },
+  {
+    "arxiv_id": "2304.01150v2",
+    "title": "Algebraic and Geometric Models for Space Networking",
+    "authors": [
+      "William Bernardoni",
+      "Robert Cardona",
+      "Jacob Cleveland",
+      "Justin Curry",
+      "Robert Green",
+      "Brian Heller",
+      "Alan Hylton",
+      "Tung Lam",
+      "Robert Kassouf-Short"
+    ],
+    "year": "2023",
+    "summary": "In this paper we introduce some new algebraic and geometric perspectives on networked space communications. Our main contribution is a novel definition of a time-varying graph (TVG), defined in terms of a matrix with values in subsets of the real line P(R). We leverage semi-ring properties of P(R) to model multi-hop communication in a TVG using matrix multiplication and a truncated Kleene star. This leads to novel statistics on the communication capacity of TVGs called lifetime curves, which we generate for large samples of randomly chosen STARLINK satellites, whose connectivity is modeled over day-long simulations. Determining when a large subsample of STARLINK is temporally strongly connected is further analyzed using novel metrics introduced here that are inspired by topological data analysis (TDA). To better model networking scenarios between the Earth and Mars, we introduce various semi-rings capable of modeling propagation delay as well as protocols common to Delay Tolerant Networking (DTN), such as store-and-forward. Finally, we illustrate the applicability of zigzag persistence for featurizing different space networks and demonstrate the efficacy of K-Nearest Neighbors (KNN) classification for distinguishing Earth-Mars and Earth-Moon satellite systems using time-varying topology alone.",
+    "pdf_url": "https://arxiv.org/pdf/2304.01150v2.pdf"
+  },
+  {
+    "arxiv_id": "2209.13227v1",
+    "title": "A Modeling of TSRCG and Resource Optimization for Multi-task Delivery Guarantee Algorithm Based on CGR Strategy in LEO Satellite Network",
+    "authors": [
+      "Xue Sun",
+      "Changhao Li",
+      "Lei Yan",
+      "Suzhi Cao"
+    ],
+    "year": "2022",
+    "summary": "With the reduction of satellite costs and the enhancement of processing capabilities, low earth orbit (LEO) satellite constellations can independently build inter-satellite networks without relying on traditional ground stations restricted by geographical distribution and can establish inter-satellite links (ISLs) and complete computing and routing on-board. The characteristics of frequent on-off ISLs, the highly dynamic network topology of satellite networks make it face the challenges of routing strategy design as a delay/interruption tolerant network (DTN). As a deterministic dynamic routing algorithm, contact graph routing (CGR) uses a contact plan to calculate the path and forward data, but it still has problems such as high computational overhead, low prediction accuracy caused by ignoring queue delay, and overbooked problem caused by limited cache. Therefore, we first start with the time-space resource contact graph (TSRCG) to accurately characterize the time-varying and predictable characteristics of the satellite network and the network resource parameters under multi-tasks. Then, we optimize the route-list computation and dynamic route computation process to ensure task delivery and reduce the consumption of various resources, such as contact capacity, computing resources, and storage resources. And the resource optimization for the multi-task delivery guarantee algorithm based on CGR (RMDG-CGR) strategy we propose is compared with standard CGR in ION 4.0.1. Finally, the simulation results show that the RMDG-CGR can achieve higher task delivery in advance and successful task delivery rate, save contact volume occupancy rate, computing and storage resource, and the above effects are more prominent, especially in the task scenario with critical bundles.",
+    "pdf_url": "https://arxiv.org/pdf/2209.13227v1.pdf"
+  },
+  {
+    "arxiv_id": "2407.17166v1",
+    "title": "The Architectural Refinement of \u03bcD3TN: Toward a Software-Defined DTN Protocol Stack",
+    "authors": [
+      "Felix Walter",
+      "Marius Feldmann",
+      "Juan A. Fraire",
+      "Scott Burleigh"
+    ],
+    "year": "2024",
+    "summary": "This paper provides a comprehensive overview of the uD3TN project's development, detailing its transformation into a flexible and modular software implementation of the Delay-/Disruption-Tolerant Networking (DTN) Bundle Protocol. Originating from uPCN, designed for microcontrollers, uD3TN has undergone significant architectural refinement to increase flexibility, compatibility, and performance across various DTN applications. Key developments include achieving platform independence, supporting multiple Bundle Protocol versions concurrently, introducing abstract Convergence Layer Adapter (CLA) interfaces, and developing the so called Application Agent Protocol (AAP) for interaction with the application layer. Additional enhancements, informed by field tests, include Bundle-in-Bundle Encapsulation and exploring a port to the Rust programming language, indicating the project's ongoing adaptation to practical needs. The paper also introduces the Generic Bundle Forwarding Interface and AAPv2, showcasing the latest innovations in the project. Moreover, it provides a comparison of uD3TN's architecture with the Interplanetary Overlay Network (ION) protocol stack, highlighting some general architectural principles at the foundation of DTN protocol implementations.",
+    "pdf_url": "https://arxiv.org/pdf/2407.17166v1.pdf"
+  },
+  {
+    "arxiv_id": "2506.22470v1",
+    "title": "Reliable Transmission of LTP Using Reinforcement Learning-Based Adaptive FEC",
+    "authors": [
+      "Liang Chen",
+      "Yu Song",
+      "Kanglian Zhao",
+      "Juan A. Fraire",
+      "Wenfeng Li"
+    ],
+    "year": "2025",
+    "summary": "Delay/Disruption Tolerant Networking (DTN) employs the Licklider Transmission Protocol (LTP) with Automatic Repeat reQuest (ARQ) for reliable data delivery in challenging interplanetary networks. While previous studies have integrated packet-level Forward Erasure Correction (FEC) into LTP to reduce retransmission time costs, existing static and delay-feedback-based dynamic coding methods struggle with highly variable and unpredictable deep space channel conditions. This paper proposes a reinforcement learning (RL)-based adaptive FEC algorithm to address these limitations. The algorithm utilizes historical feedback and system state to predict future channel conditions and proactively adjust the code rate. This approach aims to anticipate channel quality degradation, thereby preventing decoding failures and subsequent LTP retransmissions and improving coding efficiency by minimizing redundancy during favorable channel conditions. Performance evaluations conducted in simulated Earth-Moon and Earth-Mars link scenarios demonstrate this algorithm's effectiveness in optimizing data transmission for interplanetary networks. Compared to existing methods, this approach demonstrates significant improvement, with matrix decoding failures reduced by at least 2/3.",
+    "pdf_url": "https://arxiv.org/pdf/2506.22470v1.pdf"
+  },
+  {
+    "arxiv_id": "1808.06578v1",
+    "title": "Paradoxical LTP maintenance with inhibition of protein synthesis and the proteasome suggests a novel protein synthesis requirement for early LTP reversal",
+    "authors": [
+      "Paul Smolen",
+      "Douglas A. Baxter",
+      "John H. Byrne"
+    ],
+    "year": "2018",
+    "summary": "The transition from early long-term potentiation (E-LTP) to late LTP (L-LTP) involves protein synthesis and degradation. L-LTP is blocked by inhibiting either protein synthesis or proteasome-dependent degradation prior to and during a tetanic stimulus, but paradoxically, L-LTP is not blocked when synthesis and degradation are inhibited simultaneously, suggesting counter-acting positive and negative proteins regulate L-LTP. To investigate this paradox, we modeled LTP at the Schaffer collateral synapse. Nine differential equations describe the levels of positive and negative regulator proteins (PP and NP) and transitions among five discrete synaptic states, a basal state (BAS), three E-LTP states (EP1, EP2, ED), and a L-LTP state (LP). A stimulus initiates the transition from BAS to EP1 and from EP1 to EP2, initiates the synthesis of PP and NP, and activates the ubiquitin-proteasome system (UPS). UPS mediates transitions of EP1 and EP2 to ED and the degradation of NP. The conversion of E-LTP to L-LTP is mediated by a PP-dependent transition from ED to LP. NP mediates reversal of EP2 to BAS. This model simulates empirical observations: 1) normal L-LTP, 2) block by either proteasome inhibitor or protein synthesis inhibitor alone, and 3) preservation of L-LTP when both inhibitors are applied together. Elements of this abstract model can be correlated with specific molecules and processes. Moreover, the model makes testable predictions, such as a unique synaptic state ED that precedes the transition to L-LTP, and a time window for the action of the UPS (during the transitions from EP1 and EP2 to ED). Tests of these predictions will provide insights into the processes of long-term synaptic plasticity.",
+    "pdf_url": "https://arxiv.org/pdf/1808.06578v1.pdf"
+  },
+  {
+    "arxiv_id": "1107.5124v4",
+    "title": "A Mathematical model for Astrocytes mediated LTP at Single Hippocampal Synapses",
+    "authors": [
+      "Shivendra Tewari",
+      "Kaushik Majumdar"
+    ],
+    "year": "2011",
+    "summary": "Many contemporary studies have shown that astrocytes play a significant role in modulating both short and long form of synaptic plasticity. There are very few experimental models which elucidate the role of astrocyte over Long-term Potentiation (LTP). Recently, Perea & Araque (2007) demonstrated a role of astrocytes in induction of LTP at single hippocampal synapses. They suggested a purely pre-synaptic basis for induction of this N-methyl-D- Aspartate (NMDA) Receptor-independent LTP. Also, the mechanisms underlying this pre-synaptic induction were not investigated. Here, in this article, we propose a mathematical model for astrocyte modulated LTP which successfully emulates the experimental findings of Perea & Araque (2007). Our study suggests the role of retrograde messengers, possibly Nitric Oxide (NO), for this pre-synaptically modulated LTP.",
+    "pdf_url": "https://arxiv.org/pdf/1107.5124v4.pdf"
+  },
+  {
+    "arxiv_id": "1312.3201v1",
+    "title": "Heater induced thermal effects on the LTP dynamics",
+    "authors": [
+      "Ferran Gibert",
+      "Miquel Nofrarias",
+      "Alberto Lobo",
+      "Marc D\u00edaz-Aguil\u00f3",
+      "Ignacio Mateos",
+      "Nikolaos Karnesis",
+      "Josep Sanju\u00e1n",
+      "Llu\u00eds Gesa",
+      "Ivan lloro",
+      "V\u00edctor Mart\u00edn"
+    ],
+    "year": "2013",
+    "summary": "The STOC (Science and Technology Operations Centre) simulator of the LPF (LISA PathFinder) mission is intended to provide a validation tool for the mission operations tele-commanding chain, as well as for a deeper understanding of the underlying physical processes happening in the LTP (LISA Technology Package). Amongst the different physical effects that will appear onboard, temperature fluctuations in the Electrode Housing (EH) could generate disturbances on the interferometer (IFO) readouts, therefore they must be known and controlled. In this article we report on the latest progress in the analysis at IEEC of the LTP response to thermal signals injected by means of heaters. More specifically, we determine the transfer functions relating heat input signals to forces on the Test Masses (TMs) in the LTP frequency band, from 1 mHz to 30 mHz. A complete thermal model of the entire LPF spacecraft plus payload, elaborated and maintained at European Space Technology Center (ESTEC), was used to obtain temperature distributions in response to heat inputs at prescribed spots (heaters), which are later processed to calculate the associated dynamical effects on the Test Masses.",
+    "pdf_url": "https://arxiv.org/pdf/1312.3201v1.pdf"
+  },
+  {
+    "arxiv_id": "1110.3031v1",
+    "title": "The LTP Experiment on LISA Pathfinder: Operational Definition of TT Gauge in Space",
+    "authors": [
+      "Michele Armano"
+    ],
+    "year": "2011",
+    "summary": "The European Space Agency (ESA) and the National Aeronautics and Space Administration (NASA) are planning the Laser Interferometer Space Antenna (LISA) mission in order to detect GW. The need of accurate testing of free-fall and knowledge of noise in a space environment similar to LISA's is considered mandatory a pre-phase for the project. Therefore the LISA Pathfinder mission has been designed by ESA to fly the LISA Technology Package (LTP), aiming at testing free-fall by measuring the residual acceleration between two test-bodies in the dynamical scheme we address as \"drag-free\". The spectral map of the residual acceleration as function of frequency will convey information on the local noise level, thus producing a picture of the environmental working conditions for LISA itself. The thesis contains abundant material on the problem of compensating static gravity, the development of a theory of orthogonalization of reference and cross-talk for the LTP experiment. The construction of the laser detection procedure starting from GR and differential geometry arguments is carried on. Effort was put in pointing out the physical motivations for the choices made in several other papers by the author and colleagues. In this perspective the thesis is meant as a summary tool for the LTP collaboration. In the second part of the thesis we summarize our contributions for a measurement of G onboard LTP and review on possible tests of fundamental physics the mission might embody. A wide part of the thesis is now part of the LTP Operation Master Plan, describing the real science and operations onboard LISA Pathfinder. This thesis was defended on September 26th, 2006 at the University of Como, Italy.",
+    "pdf_url": "https://arxiv.org/pdf/1110.3031v1.pdf"
+  },
+  {
+    "arxiv_id": "2404.14123v2",
+    "title": "Cooperativity, information gain, and energy cost during early LTP in dendritic spines",
+    "authors": [
+      "Jan Karbowski",
+      "Paulina Urban"
+    ],
+    "year": "2024",
+    "summary": "We investigate a mutual relationship between information and energy during early phase of LTP induction and maintenance in a large-scale system of mutually coupled dendritic spines, with discrete internal states and probabilistic dynamics, within the framework of nonequilibrium stochastic thermodynamics. In order to analyze this computationally intractable stochastic multidimensional system, we introduce a pair approximation, which allows us to reduce the spine dynamics into a lower dimensional manageable system of closed equations. It is found that the rates of information gain and energy attain their maximal values during an initial period of LTP (i.e. during stimulation), and after that they recover to their baseline low values, as opposed to a memory trace that lasts much longer. This suggests that learning phase is much more energy demanding than the memory phase. We show that positive correlations between neighboring spines increase both a duration of memory trace and energy cost during LTP, but the memory time per invested energy increases dramatically for very strong positive synaptic cooperativity, suggesting a beneficial role of synaptic clustering on memory duration. In contrast, information gain after LTP is the largest for negative correlations, and energy efficiency of that information generally declines with increasing synaptic cooperativity. We also find that dendritic spines can use sparse representations for encoding of long-term information, as both energetic and structural efficiencies of retained information and its lifetime exhibit maxima for low fractions of stimulated synapses during LTP. In general, our stochastic thermodynamics approach provides a unifying framework for studying, from first principles, information encoding and its energy cost during learning and memory in stochastic systems of interacting synapses.",
+    "pdf_url": "https://arxiv.org/pdf/2404.14123v2.pdf"
+  },
+  {
+    "arxiv_id": "2001.02524v2",
+    "title": "LTP: A New Active Learning Strategy for CRF-Based Named Entity Recognition",
+    "authors": [
+      "Mingyi Liu",
+      "Zhiying Tu",
+      "Tong Zhang",
+      "Tonghua Su",
+      "Zhongjie Wang"
+    ],
+    "year": "2020",
+    "summary": "In recent years, deep learning has achieved great success in many natural language processing tasks including named entity recognition. The shortcoming is that a large amount of manually-annotated data is usually required. Previous studies have demonstrated that active learning could elaborately reduce the cost of data annotation, but there is still plenty of room for improvement. In real applications we found existing uncertainty-based active learning strategies have two shortcomings. Firstly, these strategies prefer to choose long sequence explicitly or implicitly, which increase the annotation burden of annotators. Secondly, some strategies need to invade the model and modify to generate some additional information for sample selection, which will increase the workload of the developer and increase the training/prediction time of the model. In this paper, we first examine traditional active learning strategies in a specific case of BiLstm-CRF that has widely used in named entity recognition on several typical datasets. Then we propose an uncertainty-based active learning strategy called Lowest Token Probability (LTP) which combines the input and output of CRF to select informative instance. LTP is simple and powerful strategy that does not favor long sequences and does not need to invade the model. We test LTP on multiple datasets, and the experiments show that LTP performs slightly better than traditional strategies with obviously less annotation tokens on both sentence-level accuracy and entity-level F1-score. Related code have been release on https://github.com/HIT-ICES/AL-NER",
+    "pdf_url": "https://arxiv.org/pdf/2001.02524v2.pdf"
+  },
+  {
+    "arxiv_id": "gr-qc/0504062v1",
+    "title": "The LTP Experiment on the LISA Pathfinder Mission",
+    "authors": [
+      "S. Vitale"
+    ],
+    "year": "2005",
+    "summary": "We report on the development of the LISA Technology Package (LTP) experiment that will fly on board the LISA Pathfinder mission of the European Space Agency in 2008. We first summarize the science rationale of the experiment aimed at showing the operational feasibility of the so called Transverse-Traceless coordinate frame within the accuracy needed for LISA. We then show briefly the basic features of the instrument and we finally discuss its projected sensitivity and the extrapolation of its results to LISA.",
+    "pdf_url": "https://arxiv.org/pdf/gr-qc/0504062v1.pdf"
+  },
+  {
+    "arxiv_id": "2009.12696v1",
+    "title": "Comparing Theories for the Maintenance of Late LTP and Long-Term Memory: Computational Analysis of the Roles of Kinase Feedback Pathways and Synaptic Reactivation",
+    "authors": [
+      "Paul Smolen",
+      "Douglas A. Baxter",
+      "John H. Byrne"
+    ],
+    "year": "2020",
+    "summary": "How can memories be maintained from days to a lifetime, given turnover of proteins that underlie expression of long-term synaptic potentiation (LTP)? One likely solution relies on synaptic positive feedback loops, prominently including persistent activation of CaM kinase II (CaMKII) and self-activated synthesis of protein kinase M zeta (PKM). Recent studies also suggest positive feedback based on recurrent synaptic reactivation within neuron assemblies, or engrams, is necessary to maintain memories. The relative importance of these feedback mechanisms is controversial. To explore the likelihood that each mechanism is necessary or sufficient, we simulated LTP maintenance with a simplified model incorporating persistent kinase activation, synaptic tagging, and preferential reactivation of strong synapses, and analyzed implications of recent data. We simulated three model variants, each maintaining LTP with one feedback loop: self-activated PKM synthesis (variant I); self-activated CamKII (variant II); and recurrent reactivation of strengthened synapses (variant III). Variant I requires and predicts that PKM must contribute to synaptic tagging. Variant II maintains LTP and suggests persistent CaMKII activation could maintain PKM activity, a feedforward interaction not previously considered. However we note data challenging this feedback loop. In variant III synaptic reactivation drives, and thus predicts, recurrent or persistent activity elevations of CamKII and other necessary kinases, plausibly contributing to empirically persistent elevation of PKM levels. Reactivation is thus predicted to sustain recurrent rounds of synaptic tagging and incorporation of plasticity-related proteins. We also suggest (model variant IV) that synaptic reactivation and autonomous kinase activation could synergistically maintain LTP. We propose experiments that could discriminate these maintenance mechanisms.",
+    "pdf_url": "https://arxiv.org/pdf/2009.12696v1.pdf"
+  },
+  {
+    "arxiv_id": "1108.0865v1",
+    "title": "Non-linear parameter estimation for the LTP experiment: analysis of an operational exercise",
+    "authors": [
+      "G. Congedo",
+      "F. De Marchi",
+      "L. Ferraioli",
+      "M. Hueller",
+      "S. Vitale",
+      "M. Hewitson",
+      "M. Nofrarias",
+      "A. Monsky",
+      "M. Armano",
+      "A. Grynagier",
+      "M. Diaz-Aguilo",
+      "E. Plagnol",
+      "B. Rais"
+    ],
+    "year": "2011",
+    "summary": "The precursor ESA mission LISA-Pathfinder, to be flown in 2013, aims at demonstrating the feasibility of the free-fall, necessary for LISA, the upcoming space-born gravitational wave observatory. LISA Technology Package (LTP) is planned to carry out a number of experiments, whose main targets are to identify and measure the disturbances on each test-mass, in order to reach an unprecedented low-level residual force noise. To fulfill this plan, it is then necessary to correctly design, set-up and optimize the experiments to be performed on-flight and do a full system parameter estimation. Here we describe the progress on the non-linear analysis using the methods developed in the framework of the \\textit{LTPDA Toolbox}, an object-oriented MATLAB Data Analysis environment: the effort is to identify the critical parameters and remove the degeneracy by properly combining the results of different experiments coming from a closed-loop system like LTP.",
+    "pdf_url": "https://arxiv.org/pdf/1108.0865v1.pdf"
+  },
+  {
+    "arxiv_id": "0905.4881v1",
+    "title": "Extension of the LTP temperature diagnostics to the LISA band: first results",
+    "authors": [
+      "J Sanjuan",
+      "J Ramos-Castro",
+      "A Lobo"
+    ],
+    "year": "2009",
+    "summary": "High-resolution temperature measurements are required in the LTP, i.e., 10 uK/sqrt(Hz) from 1 mHz to 30 mHz. This has been already accomplished with thermistors and a suitable low noise electronics. However, the frequency range of interest for LISA goes down to 0.1 mHz. Investigations on the performance of temperature sensors and the associated electronics at frequencies around 0.1 mHz have been performed. Theoretical limits of the temperature measurement system and the practical on-ground limitations to test them are shown demonstrating that 1/f noise is not observed in thermistors even at frequencies around 0.1 mHz and amplitude levels of 10 uK/sqrt(Hz).",
+    "pdf_url": "https://arxiv.org/pdf/0905.4881v1.pdf"
+  },
+  {
+    "arxiv_id": "2512.17050v1",
+    "title": "Chronicle: \"Foot of the iceberg\" of Nobel Prize in Physics 2025: ILTPE and LTP contribution",
+    "authors": [
+      "O. G. Turutanov"
+    ],
+    "year": "2025",
+    "summary": "The Nobel Prize in Physics 2025 has been awarded to John Clarke, John Martinis, and Michel Devoret for \"the discovery of macroscopic quantum mechanical tunnelling and energy quantisation in an electric circuit\". The paper explains the essence of their studies and shows in a historical context the importance of earlier research in superconductivity and quantum physics of macroscopic systems by other physicists, particularly, Ukrainian scientists, including employees of the B. Verkin Institute for Low Temperature Physics and Engineering of the NAS of Ukraine (ILTPE). The role of the Fizyka Nyzkykh Temperatur (FNT) journal issued by ILTPE in Kharkiv and its translation as AIP Low Temperature Physics (LTP) in dissemination of results of the theoretical and experimental studies in the field is emphasized as well.",
+    "pdf_url": "https://arxiv.org/pdf/2512.17050v1.pdf"
+  },
+  {
+    "arxiv_id": "1501.01471v3",
+    "title": "Enhanced HARQ for Delay Tolerant Services in Mobile Satellite Communications",
+    "authors": [
+      "Rami Ali Ahmad",
+      "J\u00e9r\u00f4me Lacan",
+      "Fabrice Arnal",
+      "Mathieu Gineste",
+      "Laurence Clarac"
+    ],
+    "year": "2015",
+    "summary": "The objective of our paper is to improve efficiency (in terms of throughput or system capacity) for mobile satellite communications. In this context, we propose an enhanced Hybrid Automatic Repeat reQuest (HARQ) for delay tolerant services. Our proposal uses the estimation of the mutual information. We evaluate the performance of the proposed method for a land mobile satellite channel by means of simulations. Results are compared with those obtained with a classical incremental redundancy (IR) HARQ scheme. The technique we propose, shows a better performance in terms of efficiency while maintaining an acceptable delay for services.",
+    "pdf_url": "https://arxiv.org/pdf/1501.01471v3.pdf"
+  },
+  {
+    "arxiv_id": "2408.05064v1",
+    "title": "Analysis of a Delay-Tolerant Data Harvest Architecture Leveraging Low Earth Orbit Satellite Networks",
+    "authors": [
+      "Chang-Sik Choi"
+    ],
+    "year": "2024",
+    "summary": "Reaching all regions of Earth, low Earth orbit (LEO) satellites can harvest delay-tolerant data from remotely located users on Earth without ground infrastructure. This work aims to assess a data harvest network architecture where users generate data and LEO satellites harvest data from users when passing by. By developing a novel stochastic geometry Cox point process model that simultaneously generates orbits and the motion of LEO satellite harvesters on them, we analyze key performance indices of such a network by deriving the following: (i) the average fraction of time that the typical user is served by LEO satellite harvesters, (ii) the average amount of data uploaded per each satellite pass, (iii) the maximum harvesting capacity of the proposed network model, and (iv) the delay distribution in the proposed network. These key metrics are given as functions of key network variables such as $\u03bb$ the mean number of orbits and $\u03bc$ the mean number of satellites per orbit. Providing rich comprehensive analytical results and practical interpretations of these results, this work assesses the potential of the delay-tolerant use of LEO satellites and also serves as a versatile framework to analyze, design, and optimize delay-tolerant LEO satellite networks.",
+    "pdf_url": "https://arxiv.org/pdf/2408.05064v1.pdf"
+  },
+  {
+    "arxiv_id": "2304.13501v2",
+    "title": "Routing Heterogeneous Traffic in Delay-Tolerant Satellite Networks",
+    "authors": [
+      "Pablo G. Madoery",
+      "Gunes Karabulut Kurt",
+      "Halim Yanikomeroglu",
+      "Peng Hu",
+      "Khaled Ahmed",
+      "St\u00e9phane Martel",
+      "Guillaume Lamontagne"
+    ],
+    "year": "2023",
+    "summary": "Delay-tolerant networking (DTN) offers a novel architecture that can be used to enhance store-carry-forward routing in satellite networks. Since these networks can take advantage of scheduled contact plans, distributed algorithms like the Contact Graph Routing (CGR) can be utilized to optimize data delivery performance. However, despite the numerous improvements made to CGR, there is a lack of proposals to prioritize traffic with distinct quality of service (QoS) requirements. This study presents adaptations to CGR to improve QoS-compliant delivery ratio when transmitting traffic with different latency constraints, along with an integer linear programming optimization model that serves as a performance upper bound. The extensive results obtained by simulating different scenarios show that the proposed algorithms can effectively improve the delivery ratio and energy efficiency while meeting latency constraints.",
+    "pdf_url": "https://arxiv.org/pdf/2304.13501v2.pdf"
+  },
+  {
+    "arxiv_id": "2209.06324v1",
+    "title": "Routing heterogeneous traffic in delay tolerant satellite networks",
+    "authors": [
+      "Pablo G. Madoery",
+      "Gunes Karabulut Kurt",
+      "Halim Yanikomeroglu",
+      "Peng Hu",
+      "Khaled Ahmed",
+      "Guillaume Lamontagne"
+    ],
+    "year": "2022",
+    "summary": "Delay Tolerant Networking (DTN) has been proposed as a new architecture to provide efficient store-carry-and-forward data transport in satellite networks. Since these networks relay on scheduled contact plans, the Contact Graph Routing (CGR) algorithm can be used to optimize routing and data delivery performance. However, in spite of the various improvements that have been made to CGR, there have been no significant proposals to prioritize traffic with different quality of service requirements. In this work we propose adaptations to CGR that allow performance improvements when sending traffic with different latency constraints, and develop a linear programming optimization model that works as a performance upper bound. The simulation results of the proposed schemes are promising and open the debate on other ways to improve performance while meeting the particular needs of heterogeneous traffic.",
+    "pdf_url": "https://arxiv.org/pdf/2209.06324v1.pdf"
+  },
+  {
+    "arxiv_id": "1411.3625v2",
+    "title": "Enhancing Satellite System Throughput Using Adaptive HARQ for Delay Tolerant Services in Mobile Communications",
+    "authors": [
+      "Rami Ali Ahmad",
+      "J\u00e9r\u00f4me Lacan",
+      "Fabrice Arnal",
+      "Mathieu Gineste",
+      "Laurence Clarac"
+    ],
+    "year": "2014",
+    "summary": "In this paper we propose the introduction of adaptive hybrid automatic repeat request (HARQ) in the context of mobile satellite communications. HARQ schemes which are commonly used in terrestrial links, can be adapted to improve the throughput for delay tolerant services. The proposed method uses the estimation of the mutual information between the received and the sent symbols, in order to estimate the number of bits necessary to decode the message at next transmission. We evaluate the performance of our method by simulating a land mobile satellite (LMS) channel. We compare our results with the static HARQ scheme, showing that our adaptive retransmission technique has better efficiency while keeping an acceptable delay for services.",
+    "pdf_url": "https://arxiv.org/pdf/1411.3625v2.pdf"
+  },
+  {
+    "arxiv_id": "2406.00723v1",
+    "title": "Throughput and Link Utilization Improvement in Satellite Networks: A Learning-Enabled Approach",
+    "authors": [
+      "Hao Wu"
+    ],
+    "year": "2024",
+    "summary": "Satellite networks provide communication services to global users with an uneven geographical distribution. In densely populated regions, Inter-satellite links (ISLs) often experience congestion, blocking traffic from other links and leading to low link utilization and throughput. In such cases, delay-tolerant traffic can be withheld by moving satellites and carried to navigate congested areas, thereby mitigating link congestion in densely populated regions. Through rational store-and-forward decision-making, link utilization and throughput can be improved. Building on this foundation, this letter centers its focus on learning-based decision-making for satellite traffic. First, a link load prediction method based on topology isomorphism is proposed. Then, a Markov decision process (MDP) is formulated to model store-and-forward decision-making. To generate store-and-forward policies, we propose reinforcement learning algorithms based on value iteration and Q-Learning. Simulation results demonstrate that the proposed method improves throughput and link utilization while consuming less than 20$\\%$ of the time required by constraint-based routing.",
+    "pdf_url": "https://arxiv.org/pdf/2406.00723v1.pdf"
+  },
+  {
+    "arxiv_id": "2410.15546v3",
+    "title": "Improved Contact Graph Routing in Delay Tolerant Networks with Capacity and Buffer Constraints",
+    "authors": [
+      "Tania Alhajj",
+      "Vincent Corlay"
+    ],
+    "year": "2024",
+    "summary": "Satellite communications present challenging characteristics. Continuous end-to-end connectivity may not be available due to the large distances between satellites. Moreover, resources such as link capacity and buffer memory may be limited. Routing in satellite networks is therefore both complex and crucial to avoid packet losses and long delays. The Delay Tolerant Network (DTN) paradigm has emerged as an efficient solution for managing these challenging networks. Contact Graph Routing (CGR), a deterministic routing algorithm, is one of the most popular DTN algorithms. CGR is compatible with the store, carry, and forward principle, whereby a node receives a message and stores it in its buffer until a transmission opportunity becomes available. However, CGR relies on simplified models to incorporate potential constraints in the route search. For instance, the linear volume assumption is often used to consider capacity constraints. Moreover, capacity management and buffer management are mostly performed during the forwarding phase, once an issue has occurred. These reactive management techniques cause many collisions and increase the average delivery time. In this paper, we propose taking measures before or during the route search in order to find routes that respect both contact-capacity and node-buffer limits. We introduce the contact splitting and edge pruning operations to effectively account for the routing constraints. This ensures that CGR outputs the optimal solution in terms of delivery time among the subset of valid solutions. The problem is formalized as the Feasible Earliest-Arrival Path with Capacity and Buffer constraints (FEAP-CB) and optimality is proved. The proposed approach can also be used to book resources to be used in case of issues during the forwarding phase.",
+    "pdf_url": "https://arxiv.org/pdf/2410.15546v3.pdf"
+  },
+  {
+    "arxiv_id": "2603.01334v2",
+    "title": "Energy Efficient Traffic Scheduling For Optical LEO Satellite Downlinks",
+    "authors": [
+      "Ethan Fettes",
+      "Pablo G. Madoery",
+      "Halim Yanikomeroglu",
+      "Gunes Karabulut Kurt",
+      "Abhishek Naik",
+      "St\u00e9phane Martel"
+    ],
+    "year": "2026",
+    "summary": "In recent years, the number of satellites in orbit has increased rapidly, with megaconstellations like Starlink providing near-global, delay-sensitive communication services. However, not all satellite communication use cases have stringent delay requirements; services such as Earth observation (EO) and remote Internet of Things (IoT) fall into this category. These relaxed delay quality of service (QoS) objectives allow services to be delivered using sparse constellations, enabled by delay-tolerant networking protocols. In the context of rapidly growing data volumes that must be delivered through satellite networks, a key challenge is having sufficient space-to-ground link capacity. This has led to proposals for using free-space optical (FSO) communications, which offer high data rates. However, FSO communications are highly vulnerable to weather-related disruptions. This results in certain communication opportunities being energy inefficient. Given the energy-constrained nature of satellites, developing schemes to improve energy efficiency is highly desirable. In this work, both static and adaptive schemes were developed to balance maintaining the delivery ratio and maximizing energy efficiency. The proposed schemes fall into the following categories: threshold schemes, heuristic sorting algorithms, and reinforcement learning-based schemes. The schemes were evaluated under a variety of different data volumes and cloud cover distribution configurations as well as a case study using historical weather data. It was found that static schemes suffered from low delivery ratio performance under dynamic conditions when compared to adaptive techniques. However, this performance improvement came at the cost of increased complexity and onboard computations.",
+    "pdf_url": "https://arxiv.org/pdf/2603.01334v2.pdf"
+  },
+  {
+    "arxiv_id": "2408.09281v1",
+    "title": "Next-Generation Satellite IoT Networks: A HAPS-Enabled Solution to Enhance Optical Data Transfer",
+    "authors": [
+      "Ethan Fettes",
+      "Pablo G. Madoery",
+      "Halim Yanikomeroglu",
+      "Gunes Karabulut Kurt",
+      "Colin Bellinger",
+      "St\u00e9phane Martel",
+      "Khaled Ahmed",
+      "Sameera Siddiqui"
+    ],
+    "year": "2024",
+    "summary": "For decades, satellites have facilitated remote internet of things (IoT) services. However, the recent proliferation of increasingly capable sensors and a surge in the number deployed, has led to a substantial growth in the volume of data that needs to be transmitted via satellites. In response to this growing demand, free space optical communication systems have been proposed, as they allow for the use of large bandwidths of unlicensed spectrum, enabling high data rates. However, optical communications are highly vulnerable to weather-induced disruptions, thereby limiting their high potential. This paper proposes the use of high altitude platform station (HAPS) systems in conjunction with delay-tolerant networking techniques to increase the amount of data that can be transmitted to the ground from satellites when compared to the use of traditional ground station network architectures. The architectural proposal is evaluated in terms of delivery ratio and buffer occupancy, and the subsequent discussion analyzes the advantages, challenges and potential areas for future research.",
+    "pdf_url": "https://arxiv.org/pdf/2408.09281v1.pdf"
+  },
+  {
+    "arxiv_id": "2510.20443v1",
+    "title": "Joint Computation Offloading and Resource Management for Cooperative Satellite-Aerial-Marine Internet of Things Networks",
+    "authors": [
+      "Shuang Qi",
+      "Bin Lin",
+      "Yiqin Deng",
+      "Hongyang Pan",
+      "Xu Hu"
+    ],
+    "year": "2025",
+    "summary": "Devices within the marine Internet of Things (MIoT) can connect to low Earth orbit (LEO) satellites and unmanned aerial vehicles (UAVs) to facilitate low-latency data transmission and execution, as well as enhanced-capacity data storage. However, without proper traffic handling strategy, it is still difficult to effectively meet the low-latency requirements. In this paper, we consider a cooperative satellite-aerial-MIoT network (CSAMN) for maritime edge computing and maritime data storage to prioritize delay-sensitive (DS) tasks by employing mobile edge computing, while handling delay-tolerant (DT) tasks via the store-carry-forward method. Considering the delay constraints of DS tasks, we formulate a constrained joint optimization problem of maximizing satellite-collected data volume while minimizing system energy consumption by controlling four interdependent variables, including the transmit power of UAVs for DS tasks, the start time of DT tasks, computing resource allocation, and offloading ratio. To solve this non-convex and non-linear problem, we propose a joint computation offloading and resource management (JCORM) algorithm using the Dinkelbach method and linear programming. Our results show that the volume of data collected by the proposed JCORM algorithm can be increased by up to 41.5% compared to baselines. Moreover, JCORM algorithm achieves a dramatic reduction in computational time, from a maximum of 318.21 seconds down to just 0.16 seconds per experiment, making it highly suitable for real-time maritime applications.",
+    "pdf_url": "https://arxiv.org/pdf/2510.20443v1.pdf"
+  },
+  {
+    "arxiv_id": "2510.27325v1",
+    "title": "Selected Results from the REDMARS2 Project: Recursive Delay-Tolerant Networking using Bundle-in-Bundle Encapsulation",
+    "authors": [
+      "Marius Feldmann",
+      "Tobias N\u00f6thlich",
+      "Felix Walter",
+      "Maximilian Nitsch",
+      "Juan A. Fraire",
+      "Georg A. Murzik",
+      "Fiona Fuchs"
+    ],
+    "year": "2025",
+    "summary": "This whitepaper presents parts of the results of the REDMARS2 project conducted in 2021-2022, exploring the integration of Recursive Internetwork Architecture (RINA) concepts into Delay- and Disruption-Tolerant Networking (DTN) protocols. Using Bundle-in-Bundle Encapsulation (BIBE), we implemented scope-based separation mechanisms resulting in scalable DTNs. A key contribution of this work is the demonstration of practical BIBE-based use cases, including a realistic Solar System Internet communication scenario involving unmanned aerial vehicles (UAVs) and satellite relays. The evaluation, supported by field tests in collaboration with the European Space Agency (ESA), confirmed the viability of BIBE as a foundation for scalable, recursive, and interoperable DTN architectures.",
+    "pdf_url": "https://arxiv.org/pdf/2510.27325v1.pdf"
+  },
+  {
+    "arxiv_id": "2407.02498v1",
+    "title": "A New Classification of Clustering-based for Different Problems in Different Wireless Ad-hoc Networks",
+    "authors": [
+      "Adda Boualem",
+      "Marwane Ayaida",
+      "Hichem Sedjelmaci",
+      "Chaimaa Khalfi",
+      "Kamilia Brahimi",
+      "Bochra Khelil",
+      "Sanaa Bouchama"
+    ],
+    "year": "2024",
+    "summary": "Ad-hoc networks are specifically designed to facilitate communication in environments where establishing a dedicated network infrastructure is exceedingly complex or impractical. The integration of clustering concepts into various ad-hoc network scenarios, including Wireless Sensor Networks (WSN), Mobile Ad-hoc Networks (MANET), Vehicular Ad-hoc Networks (VANET), Delay-Tolerant Networks (DTN), Wireless Ad-hoc Networks (WANET), Underwater Wireless Sensor Networks (UWSN), Unmanned Aerial Vehicle Networks (UAV), commonly known as \"drones,\" Space Networks (SN), and Satellite Networks (TN), presents abundant opportunities for refining strategies in event tracking and area monitoring across both deterministic and uncertain environments. This paper conducts a comparative analysis of diverse proposed strategies leveraging clustering concepts to address coverage challenges within deterministic and uncertain environments. As a result, it addresses current and future challenges inherent in clustering-based WANET, elucidating the merits, shortcomings, and weaknesses of clustering models. Lastly, it identifies potential avenues for addressing coverage issues in existing and emerging technologies.",
+    "pdf_url": "https://arxiv.org/pdf/2407.02498v1.pdf"
+  },
+  {
+    "arxiv_id": "2108.07092v1",
+    "title": "Routing in Delay-Tolerant Networks under Uncertain Contact Plans",
+    "authors": [
+      "Fernando D. Raverta",
+      "Juan A. Fraire",
+      "Pablo G. Madoery",
+      "Ramiro A. Demasi",
+      "Jorge M. Finochietto",
+      "Pedro R. D'Argenio"
+    ],
+    "year": "2021",
+    "summary": "Delay-Tolerant Networks (DTN) enable store-carry-and-forward data transmission in networks challenged by frequent disruptions and high latency. Existing classification distinguishes between scheduled and probabilistic DTNs, for which specific routing solutions have been developed. In this paper, we uncover a gap in-between where uncertain contact plans can be exploited to enhance data delivery in many practical scenarios described by probabilistic schedules available a priori. Routing under uncertain contact plans (RUCoP) is next formulated as a multiple-copy Markov Decision Process and then exported to local-knowledge (L-RUCoP) and Contact Graph Routing extensions (CGR-UCoP) which can be implemented in the existing DTN protocol stack. RUCoP and its derivations are evaluated in a first extensive simulation benchmark for DTNs under uncertain contact plans comprising both random and realistic scenarios. Results confirm that RUCoP and L-RUCoP closely approach the ideal delivery ratio of an oracle, while CGR-UCoP improves state-of-the-art DTN routing schemes delivery ratio up to 25%.",
+    "pdf_url": "https://arxiv.org/pdf/2108.07092v1.pdf"
+  },
+  {
+    "arxiv_id": "2609.07056v2",
+    "title": "Lightweight Onboard Routing and Topology Co-Construction for Autonomous GNSSs",
+    "authors": [
+      "Huan Yan",
+      "Juan A. Fraire",
+      "Rongqin Yang",
+      "Wenfeng Li",
+      "Kanglian Zhao"
+    ],
+    "year": "2026",
+    "summary": "Global navigation satellite systems (GNSSs) can already plan their inter-satellite link (ISL) topology onboard, leaving routing as the last step toward autonomous networking. In GNSS ISLs, each satellite links to at most one peer per time slot. We exploit this structure to replace end-to-end path search with a single backward sweep over the slots. The proposed method, DS-SMFP, propagates earliest-arrival times backward from each destination and outputs a STORE/FORWARD decision for every slot, satellite, and destination, in time linear in the number of slots and with working memory independent of the planning horizon. Because each slot needs only its own topology and the delivery state of the next one, routing can steer link selection while the topology is built. This slotwise dependency enables Master-Oriented Topology--Routing Co-Construction (MTRCC), which favors traffic to and from a master satellite performing onboard orbit determination. In a 24-h, 30-satellite BeiDou scenario, DS-SMFP matches the delays of Contact Graph Routing (CGR) and shortest path tree (SPT) routing while running over 180 times faster and using over 36 times less peak routing working memory. Compared with fair contact plan (FCP) topology, MTRCC reduces mean master-related traffic delays by over 10\\%, with an approximately 3\\% increase in mean PDOP. This paper provides a methodological foundation for efficient autonomous GNSS networking.",
+    "pdf_url": "https://arxiv.org/pdf/2609.07056v2.pdf"
+  },
+  {
+    "arxiv_id": "1011.0474v1",
+    "title": "Construction of New Delay-Tolerant Space-Time Codes",
+    "authors": [
+      "Mireille Sarkiss",
+      "Ghaya Rekaya-Ben Othman",
+      "Mohamed Oussama Damen",
+      "Jean-Claude Belfiore"
+    ],
+    "year": "2010",
+    "summary": "Perfect Space-Time Codes (STC) are optimal codes in their original construction for Multiple Input Multiple Output (MIMO) systems. Based on Cyclic Division Algebras (CDA), they are full-rate, full-diversity codes, have Non-Vanishing Determinants (NVD) and hence achieve Diversity-Multiplexing Tradeoff (DMT). In addition, these codes have led to optimal distributed space-time codes when applied in cooperative networks under the assumption of perfect synchronization between relays. However, they loose their diversity when delays are introduced and thus are not delay-tolerant. In this paper, using the cyclic division algebras of perfect codes, we construct new codes that maintain the same properties as perfect codes in the synchronous case. Moreover, these codes preserve their full-diversity in asynchronous transmission.",
+    "pdf_url": "https://arxiv.org/pdf/1011.0474v1.pdf"
+  },
+  {
+    "arxiv_id": "1405.4571v1",
+    "title": "Adaptive Delay-Tolerant Distributed Space-Time Coding Based on Adjustable Code Matrices for Cooperative MIMO Relaying Systems",
+    "authors": [
+      "Tong Peng",
+      "Rodrigo C. de Lamare"
+    ],
+    "year": "2014",
+    "summary": "An adaptive delay-tolerant distributed space-time coding (DSTC) scheme that exploits feedback is proposed for two-hop cooperative MIMO networks. Maximum likelihood (ML) receivers and adjustable code matrices are considered subject to a power constraint with a decode-and-forward (DF) cooperation strategy. In the proposed delay-tolerant DSTC scheme, an adjustable code matrix is employed to transform the space-time coded matrix at the relay nodes. Least-squares (LS) algorithms are developed with reduced computational complexity to adjust the parameters of the codes. Simulation results show that the proposed algorithms obtain significant performance gains and address the delay issue for cooperative MIMO systems as compared to existing delay-tolerant DSTC schemes.",
+    "pdf_url": "https://arxiv.org/pdf/1405.4571v1.pdf"
+  },
+  {
+    "arxiv_id": "2605.21624v2",
+    "title": "An Open-Source Framework to Emulate Delay and Disruption Tolerant Networks for International Space Station Communication",
+    "authors": [
+      "Krit Grover",
+      "Marcelo Ponce"
+    ],
+    "year": "2026",
+    "summary": "Delay and Disruption Tolerant Networks (DTN) are critical for reliable communications in challenged network environments, particularly for space systems where end-to-end connectivity cannot be guaranteed. We present an open-source, full-stack implementation of the Bundle protocol for communicating with the International Space Station (ISS), with complete security features including Bundle Authentication Block (BAB), Payload Integrity Block (PIB), and Payload Confidentiality Block (PCB) using HMAC-SHA256 and AES-256-CBC encryption. The system includes bundle fragmentation and reassembly, priority-based queuing, custody transfer with ACK/NAK mechanisms, and automatic retransmission. Our system also includes a frontend facilitated by a modern responsive web interface. We consider this work highly relevant in the context of computer networking because: i) it demonstrates a full stack, open-source, freely available implementation of this critical and reliable protocol; and ii) it offers an interactive educational and learning framework in the field of computer networks and communications.",
+    "pdf_url": "https://arxiv.org/pdf/2605.21624v2.pdf"
+  },
+  {
+    "arxiv_id": "2610.13923v1",
+    "title": "Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning",
+    "authors": [
+      "Sajjad Baghaee",
+      "Aimin Li",
+      "Shanmugarajan Balasubramanian",
+      "Elif Uysal"
+    ],
+    "year": "2026",
+    "summary": "Deep-space communications operate under intermittent connectivity, long propagation delays, and relay storage constraints. In such networks, the Bundle Protocol enables store-carry-forward communication, requiring relay nodes to manage limited storage and scarce contact opportunities. Relay-side scheduling and dropping decisions are inherently goal-oriented: transmission resources should be allocated to bundles most valuable to downstream mission objectives. Conventional schedulers, such as FIFO, do not explicitly optimize task utility and may provide unfair service across heterogeneous planetary sources. This paper presents a closed-loop modeling and learning framework for relay-side bundle and flow management in a contact-driven deep-space network, where lunar and Martian updates are forwarded through a shared-buffer relay to Earth. We quantify destination-side information freshness using excess age $\u0394_i^e(t)=[\u0394_i(t)-d_i(t)]^+$, where $\u0394_i(t)$ denotes the Age of Information of source $i$ and $d_i(t)$ is a source-dependent delay baseline. Based on this metric, we define a goal-oriented loss that supports source-dependent nonlinear penalties, allowing prioritization according to mission relevance. We formulate relay control as a constrained semi-Markov decision process (CSMDP) and solve it using masked Lagrangian Proximal Policy Optimization (PPO). Feasibility-aware action masking restricts transmissions to bundles that can complete within the remaining contact window. DTNSim simulations indicate improved age-based utility and inter-flow fairness compared with baseline schedulers. The proposed framework jointly optimizes relay-side bundle scheduling, dropping, and flow control under contact-driven dynamics with explicit fairness considerations across heterogeneous sources.",
+    "pdf_url": "https://arxiv.org/pdf/2610.13923v1.pdf"
+  },
+  {
+    "arxiv_id": "2507.17403v1",
+    "title": "Custody Transfer and Compressed Status Reporting for Bundle Protocol Version 7",
+    "authors": [
+      "Alice Le Bihan",
+      "Felix Flentge",
+      "Juan A. Fraire"
+    ],
+    "year": "2025",
+    "summary": "As space missions increase, there is a growing need to replace point-to-point communication with an efficient and reliable network-centric communication approach. Disruption/Delay Tolerant Networking (DTN) with the Bundle Protocol (BP) has been selected as an interoperable network protocol in the LunaNet Interoperability Specification. It is also considered for future Earth Observation and Mars communication scenarios. In a DTN, the \"bundle\" -- the fundamental data unit of BP -- requires dedicated mechanisms to ensure reliability due to the challenges posed by intermittent connectivity and long delays. The previous version of BP, BPv6, contained a mechanism for reliable transfer between \"custodial nodes\" called \"custody transfer\". However, this approach has been removed from the core protocol specification for BPv7, which requires a corresponding BP reliability extension to be defined separately. This paper introduces a new custody transfer process for BPv7 (expected to be published by CCSDS as an experimental specification in 2025). The core features of this new custody transfer method for BPv7 are: (1) A strategy to efficiently identify sets of bundles by sequence numbering (2) A new Custody Transfer Extension Block and a corresponding administrative record, Compressed Custody Signal, to efficiently report on the acceptance or rejection of custody using sequence numbering (3) A new Compressed Reporting Extension Block requesting reporting on bundle processing steps using a corresponding administrative record with sequence numbering for efficiency. The paper will describe those concepts and their design, specification, and implementation in detail. These mechanisms have been prototyped in the ESA BP implementation and tested in Earth Observation and Lunar communication simulation scenarios. The results will be presented, as will an outlook on future work in the DTN reliable transfer domain.",
+    "pdf_url": "https://arxiv.org/pdf/2507.17403v1.pdf"
+  },
+  {
+    "arxiv_id": "2403.20199v2",
+    "title": "NeuraLunaDTNet: Feedforward Neural Network-Based Routing Protocol for Delay-Tolerant Lunar Communication Networks",
+    "authors": [
+      "Parth Patel",
+      "Milena Radenkovic"
+    ],
+    "year": "2024",
+    "summary": "Space Communication poses challenges such as severe delays, hard-to-predict routes and communication disruptions. The Delay Tolerant Network architecture, having been specifically designed keeping such scenarios in mind, is suitable to address some challenges. The traditional DTN routing protocols fall short of delivering optimal performance, due to the inherent complexities of space communication. Researchers have aimed at using recent advancements in AI to mitigate some routing challenges [9]. We propose utilising a feedforward neural network to develop a novel protocol NeuraLunaDTNet, which enhances the efficiency of the PRoPHET routing protocol for lunar communication, by learning contact plans in dynamically changing spatio-temporal graph.",
+    "pdf_url": "https://arxiv.org/pdf/2403.20199v2.pdf"
+  }
+]

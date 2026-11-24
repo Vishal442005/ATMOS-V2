@@ -1,0 +1,21 @@
+# Ignore all LaTeX, Manuscript, and PDF files (per user instruction)
+manuscript_Atmos_V2/
+*.tex
+*.pdf
+*.zip
+*.docx
+*.pptx
+*.log
+*.aux
+*.xdv
+*.bbl
+*.blg
+*.out
+*.synctex*
+*report*
+*manuscript*
+*latex*
+tools/
+__pycache__/
+*.pyc
+.system_generated/

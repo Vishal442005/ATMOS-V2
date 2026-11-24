@@ -1,0 +1,208 @@
+{
+  "paper_gaudi_diffusion_2026.pdf": {
+    "num_pages": 8,
+    "headings_sample": [
+      "2 Related Work",
+      "3 GAUDI",
+      "5 Conclusion",
+      "1 Introduction",
+      "4 Experiments"
+    ],
+    "figures_count": 1,
+    "figures_sample": [
+      "Figure 1: Expanded evaluation: CO(GT) reconstruction in the chronologically selected middle test window (ordinal 29). Curves and markers"
+    ],
+    "tables_count": 5,
+    "tables_sample": [
+      "Table 1: Archived ItalyAir experiment reported in the ICONIP",
+      "Table 2: Expanded evaluation: reconstruction on ItalyAir with 50%",
+      "Table 3: Expanded evaluation: matched-seed effects of feature-side",
+      "Table 4: Expanded evaluation: distributional performance from the same 20 samples per run",
+      "Table 5: Expanded evaluation: per-variable RMSE, averaged over training seeds for neural methods"
+    ],
+    "metrics_found": [
+      "RMSE",
+      "MAE"
+    ],
+    "abstract_snippet": "GAUDI: Geometry-Aware Diffusion for Calibrated Air-Quality Time-Series Imputation Xinjin Li1,\u2217, Yudi Xia2,\u2217, Calvin Chang Liu3,\u2217, Weiru Lin4, Bojun Li5, Ziwei Hong6, Bolun Zhang7, Jinghan Cao8, Yu Ma9, Tianxin Zhou10,\u2020 1Columbia University; 2Independent Researcher; 3University of California, Davis; 4University of California, San Diego; 5Georgia Institute of Technology; 6Lehigh University; 7Stony Brook University; 8San Francisco State University; 9Carnegie Mellon University; 10University of Southern California. United States. \u2217Equal contribution: Xinjin Li, Yudi Xia, and Calvin Chang Liu. \u2020Corr"
+  },
+  "paper_lightweight_calib_2026.pdf": {
+    "num_pages": 8,
+    "headings_sample": [
+      "2 Related Work",
+      "6 Experimental Settings",
+      "8 Discussion and Limitations",
+      "4 Indoor Sensor Calibration Dataset",
+      "7 Experimental Results",
+      "9 Conclusion",
+      "3 Indoor Sensor Calibration Scenarios",
+      "1 Introduction",
+      "5 Model for Indoor Sensor Calibration"
+    ],
+    "figures_count": 3,
+    "figures_sample": [
+      "Figure 1: Comparison of standard sensor calibration and four deployment-oriented scenarios in terms of relaxed assumptions,",
+      "Figure 2: Architecture of proposed model with initial temporal compression, temporal and feature fusion, and output head",
+      "Figure 3: Performance on Arduino Nano 33 BLE Sense"
+    ],
+    "tables_count": 8,
+    "tables_sample": [
+      "Table 1: Comparison of low-cost sensor calibration studies and datasets",
+      "Table 2. We categorize",
+      "Table 2: Mean channel measurements across five locations",
+      "Table 3: Performance comparison on the representative outdoor calibration dataset SensEURCity and our indoor dataset",
+      "Table 4: S1 reports the average RMSE on non-anchor loca-",
+      "Table 5: S2 evaluates transfer from each source location to"
+    ],
+    "metrics_found": [
+      "RMSE",
+      "R2",
+      "latency"
+    ],
+    "abstract_snippet": "Low-Cost Sensor Calibration for Indoor Air Quality Monitoring: A Dataset, Evaluation Scenarios, and a Lightweight Model Jinyong Yun1, Seokho Ahn1, Hyungjin Kim1, Sungbok Shin2, Young-Duk Seo1\u2217 1Department of Electrical and Computer Engineering, Inha University, Incheon 22212, South Korea 2 Department of Computer Science and Engineering, Sogang University, Seoul 04107, South Korea 12191632Y@inha.edu, sokho0514@inha.edu, flslzk@inha.edu, sbshin90@sogang.ac.kr, mysid88@inha.ac.kr Abstract Low-cost sensors enable scalable indoor air quality monitor- ing but require calibration because of nonlinear"
+  },
+  "paper_omnist_2026.pdf": {
+    "num_pages": 10,
+    "headings_sample": [
+      "VIII. CONCLUSION",
+      "III. EXPERIMENTAL VALIDATION",
+      "VI. DISCUSSION",
+      "IV. RESULTS",
+      "V. RELATED WORK",
+      "I. Online Conformal Under Temporal Drift",
+      "VII. LIMITATIONS",
+      "II. ARCHITECTURE",
+      "I. INTRODUCTION\nS"
+    ],
+    "figures_count": 4,
+    "figures_sample": [
+      "Fig. 1.\nFig. 1",
+      "Fig. 2. Calibration curves (empirical vs target coverage) across the four real",
+      "Fig. 3. Coverage over time under seasonal drift. Static conformal collapses",
+      "Fig. 4. Conditional coverage: Mondrian (group-conditional) conformal lifts"
+    ],
+    "tables_count": 0,
+    "tables_sample": [],
+    "metrics_found": [
+      "MAE",
+      "R2",
+      "correlation",
+      "power"
+    ],
+    "abstract_snippet": "1 OmniST: Topology-Invariant Spatiotemporal Forecasting with Guaranteed-Coverage Uncertainty at Unseen Sensor Locations Praveg Vashishtha Abstract\u2014Standard spatiotemporal graph convolutional net- works require a fixed-dimensional adjacency matrix, coupling model weights to a specific sensor count N; they cannot produce any output at a sensor location absent from training. We present OmniST, a topology-invariant forecaster whose compu- tational graph has zero structural dependency on the number of input nodes, and which \u2014 composed with inductive split- conformal calibration \u2014 provides distribut"
+  },
+  "paper_pm25_forecasting_transformer_2024.pdf": {
+    "num_pages": 7,
+    "headings_sample": [
+      "I. INTRODUCTION",
+      "IV. CONCLUSIONS",
+      "III. NUMERICAL RESULTS"
+    ],
+    "figures_count": 1,
+    "figures_sample": [
+      "FIG. 1. \u2206\u03c72 for varying degrees of allowed SU(3)F breaking"
+    ],
+    "tables_count": 0,
+    "tables_sample": [],
+    "metrics_found": [
+      "power"
+    ],
+    "abstract_snippet": "Reappraisal of SU(3)-flavor breaking in B \u2192 DP Jonathan Davies,1, \u2217 Stefan Schacht,1, \u2020 Nicola Skidmore,2, \u2021 and Amarjit Soni3, \u00a7 1Department of Physics and Astronomy, University of Manchester, Manchester M13 9PL, United Kingdom 2Department of Physics, University of Warwick, Coventry CV4 7AL, United Kingdom 3Physics Department, Brookhaven National Laboratory, Upton, NY 11973, USA In light of recently found deviations of the experimental data from predictions from QCD factor- ization for B(s) \u2192 D(s)P decays, where P = {\u03c0, K}, we systematically probe the current status of the SU(3)F expansion fr"
+  },
+  "paper_solar_iot_air_quality.pdf": {
+    "num_pages": 13,
+    "headings_sample": [
+      "IV. CONCLUSIONS",
+      "I. INTRODUCTION",
+      "III. RESULTS",
+      "II. DISPLACEMENT FIELD OF AN ANGULAR",
+      "III. DISPLACEMENT FIELD OF A STRAIGHT",
+      "I. CONSTRUCTION OF THE DISPLACEMENT FIELD"
+    ],
+    "figures_count": 5,
+    "figures_sample": [
+      "Fig.1. Threading arms are assumed to be",
+      "FIG. 1. Geometry of an epitaxial film with a dislocation half-loop",
+      "Fig.1. It",
+      "FIG. 2. Monte Carlo calculation of the X-ray diffraction from dislocation half-loops with edge threading arms. Threading dislocation",
+      "FIG.3. ReciprocalspacemapsinasymmetricBraggreflection 0002"
+    ],
+    "tables_count": 0,
+    "tables_sample": [],
+    "metrics_found": [
+      "R2",
+      "correlation"
+    ],
+    "abstract_snippet": "X-ray diffraction from dislocation half-loops in epitaxial films Vladimir M. Kaganer Paul-Drude-Institut f\u00fcr Festk\u00f6rperelektronik, Hausvogteiplatz 5\u20137, 10117 Berlin, Germany X-raydiffractionfromdislocationhalf-loopsconsistingofamisfitsegmentandtwothreadingarmsextending from it to the surface is calculated by the Monte Carlo method. The diffraction profiles and reciprocal space maps are controlled by the ratio of the total lengths of the misfit and the threading segments of the half- loops. A continuous transformation from the diffraction characteristic of misfit dislocations to that of threadi"
+  },
+  "paper_spatiotemporal_pm25_2024.pdf": {
+    "num_pages": 9,
+    "headings_sample": [
+      "2 Methodology",
+      "5 Conclusion",
+      "1 Introduction",
+      "4 Experiments",
+      "3 Related Work"
+    ],
+    "figures_count": 5,
+    "figures_sample": [
+      "Figure 1: Architecture of the proposed AGNN_GRU model",
+      "Figure 2. This allows us to assess its effectiveness not",
+      "Figure 2: Distribution of AQM stations across the entire state",
+      "Figure 3: Spatial Distribution of mean PM2.5 concentration for Bihar across seasons",
+      "Figure 4: Comparison of true (blue color) and predicted values (orange color) across different locations for Bihar dataset for"
+    ],
+    "tables_count": 4,
+    "tables_sample": [
+      "Table 1: Experiment Details",
+      "Table 4. After the complete training, we",
+      "Table 2: Overall model performance on the Bihar dataset for 12-hour (top row) and 24-hour (bottom",
+      "Table 3: Overall model performance on the China dataset for 12-hour (top row) and 24-hour (bottom"
+    ],
+    "metrics_found": [
+      "RMSE",
+      "MAE",
+      "correlation",
+      "power"
+    ],
+    "abstract_snippet": "Spatio-Temporal Forecasting of PM2.5 via Spatial-Diffusion guided Encoder-Decoder Architecture Malay Pandey 1, Vaishali Jain 2, Nimit Godhani 2, Sachchida Nand Tripathi 2,3, Piyush Rai 1 1 CSE Department, IIT Kanpur, 2 Civil Engineering Department, IIT Kanpur, 3 SEE Department, IIT Kanpur Uttar Pradesh, India Abstract In many problem settings that require spatio-temporal forecast- ing, the values in the time-series not only exhibit spatio-temporal correlations but are also influenced by spatial diffusion across lo- cations. One such example is forecasting the concentration of fine particulate "
+  },
+  "paper_temporal_dl_calibration_2026.pdf": {
+    "num_pages": 27,
+    "headings_sample": [
+      "4. Results",
+      "3. Test Case",
+      "2. Methodology",
+      "5. Conclusion"
+    ],
+    "figures_count": 8,
+    "figures_sample": [
+      "Fig. 1. This consists",
+      "Figure 1: Overview of the calibration methodology: (a) raw sensor data input, (b) feature",
+      "Figure 2: Time series of meteorological variables: (a) Relative humidity and (b) temper-",
+      "Figure 3: Comparison of low-cost sensor measurements with AURN reference data at",
+      "Figure 4: Calibrated vs. reference concentrations across validation and test datasets for",
+      "Figure 5: Time series of PM2.5 for unseen data: (a) reference and calibrated series at",
+      "Figure 6: Time series of PM10 for unseen data: (a) reference and calibrated series at",
+      "Figure 7: Time series of NO2 for unseen data: (a) reference and calibrated series at 15-"
+    ],
+    "tables_count": 8,
+    "tables_sample": [
+      "Table 1: Sensor variables used for model training and prediction by pollutant type (ad-",
+      "Table 2: Summary of raw and engineered features included in the calibration pipeline",
+      "Table 3: Layer specification for the LSTM calibration network (matching the implemented",
+      "Table 4: Summary of the OxAria test case setup used for calibration experiments",
+      "Table 5: Calibration performance metrics for PM2",
+      "Table 6: PM2"
+    ],
+    "metrics_found": [
+      "RMSE",
+      "MAE",
+      "R2",
+      "correlation",
+      "latency",
+      "power"
+    ],
+    "abstract_snippet": "A temporal deep learning framework for calibration of low-cost air quality sensors Arindam Sengupta1,*, Tony Bush2, Ben Marner2, Jose Miguel P\u00e9rez1, and Soledad Le Clainche1 1ETSI Aeron\u00e1utica y del Espacio, Universidad Polit\u00e9cnica de Madrid, Plaza Cardenal Cisneros, 3, Madrid, 28040, Spain 2Air Quality Consultants Ltd., 3rd Floor, St. Augustine\u2019s Court, St. Augustine\u2019s Place, Bristol, BS1 4UD, United Kingdom *Corresponding author: a.sengupta@upm.es (Arindam Sengupta) , Co-authors: tonybush@noiseconsultants.co.uk, benmarner@aqconsultants.co.uk, josemiguel.perez@upm.es, soledad.leclainche@upm.es"
+  }
+}

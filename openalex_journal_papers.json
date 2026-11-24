@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Artificial intelligence and IoT driven technologies for environmental pollution monitoring and management",
+    "year": 2024,
+    "venue": "Frontiers in Environmental Science",
+    "citations": 494,
+    "doi": "https://doi.org/10.3389/fenvs.2024.1336088",
+    "pdf_url": "https://www.frontiersin.org/articles/10.3389/fenvs.2024.1336088/pdf?isPublishedV2=False"
+  },
+  {
+    "title": "Weather Radar in Complex Orography",
+    "year": 2022,
+    "venue": "Remote Sensing",
+    "citations": 126,
+    "doi": "https://doi.org/10.3390/rs14030503",
+    "pdf_url": "https://www.mdpi.com/2072-4292/14/3/503/pdf?version=1642767361"
+  },
+  {
+    "title": "Geospatial Information Research: State of the Art, Case Studies and Future Perspectives",
+    "year": 2022,
+    "venue": "PFG \u2013 Journal of Photogrammetry Remote Sensing and Geoinformation Science",
+    "citations": 95,
+    "doi": "https://doi.org/10.1007/s41064-022-00217-9",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s41064-022-00217-9.pdf"
+  },
+  {
+    "title": "Challenges for climate change adaptation in Latin America and the Caribbean region",
+    "year": 2024,
+    "venue": "Frontiers in Climate",
+    "citations": 82,
+    "doi": "https://doi.org/10.3389/fclim.2024.1392033",
+    "pdf_url": "https://www.frontiersin.org/articles/10.3389/fclim.2024.1392033/pdf?isPublishedV2=False"
+  },
+  {
+    "title": "Performance evaluation of the Alphasense OPC-N3 and Plantower PMS5003 sensor in measuring dust events in the Salt Lake Valley, Utah",
+    "year": 2023,
+    "venue": "Atmospheric measurement techniques",
+    "citations": 73,
+    "doi": "https://doi.org/10.5194/amt-16-2455-2023",
+    "pdf_url": "https://amt.copernicus.org/articles/16/2455/2023/amt-16-2455-2023.pdf"
+  },
+  {
+    "title": "A Network of Field-Calibrated Low-Cost Sensor Measurements of PM 2.5 in Lom\u00e9, Togo, Over One to Two Years",
+    "year": 2022,
+    "venue": "ACS Earth and Space Chemistry",
+    "citations": 63,
+    "doi": "https://doi.org/10.1021/acsearthspacechem.1c00391",
+    "pdf_url": "https://doi.org/10.1021/acsearthspacechem.1c00391"
+  },
+  {
+    "title": "Evaluating the Performance of Low-Cost Air Quality Monitors in Dallas, Texas",
+    "year": 2022,
+    "venue": "International Journal of Environmental Research and Public Health",
+    "citations": 59,
+    "doi": "https://doi.org/10.3390/ijerph19031647",
+    "pdf_url": "https://www.mdpi.com/1660-4601/19/3/1647/pdf?version=1644281689"
+  },
+  {
+    "title": "An analysis of degradation in low-cost particulate matter sensors",
+    "year": 2023,
+    "venue": "Environmental Science Atmospheres",
+    "citations": 58,
+    "doi": "https://doi.org/10.1039/d2ea00142j",
+    "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2023/ea/d2ea00142j"
+  },
+  {
+    "title": "Investigation of the effects of the Greek extreme wildfires of August 2021 on air quality and spectral solar irradiance",
+    "year": 2023,
+    "venue": "Atmospheric chemistry and physics",
+    "citations": 55,
+    "doi": "https://doi.org/10.5194/acp-23-8487-2023",
+    "pdf_url": "https://acp.copernicus.org/articles/23/8487/2023/acp-23-8487-2023.pdf"
+  },
+  {
+    "title": "Citizen-operated mobile low-cost sensors for urban PM2.5 monitoring: field calibration, uncertainty estimation, and application",
+    "year": 2023,
+    "venue": "Sustainable Cities and Society",
+    "citations": 51,
+    "doi": "https://doi.org/10.1016/j.scs.2023.104607",
+    "pdf_url": "https://doi.org/10.1016/j.scs.2023.104607"
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "paper_num": 1,
+    "arxiv_id": "2510.27325v1",
+    "page": 8,
+    "file": "paper1_fig_p8_1.png",
+    "width": 516,
+    "height": 447,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 1,
+    "arxiv_id": "2510.27325v1",
+    "page": 9,
+    "file": "paper1_fig_p9_1.png",
+    "width": 2453,
+    "height": 1490,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 1,
+    "arxiv_id": "2510.27325v1",
+    "page": 11,
+    "file": "paper1_fig_p11_1.jpeg",
+    "width": 4096,
+    "height": 2726,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 2,
+    "arxiv_id": "1204.3264v1",
+    "page": 1,
+    "file": "paper2_fig_p1_1.png",
+    "width": 634,
+    "height": 197,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 2,
+    "arxiv_id": "1204.3264v1",
+    "page": 1,
+    "file": "paper2_fig_p1_2.jpeg",
+    "width": 283,
+    "height": 183,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 3,
+    "arxiv_id": "2507.17403v1",
+    "page": 3,
+    "file": "paper3_fig_p3_1.png",
+    "width": 1760,
+    "height": 394,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 3,
+    "arxiv_id": "2507.17403v1",
+    "page": 3,
+    "file": "paper3_fig_p3_2.png",
+    "width": 278,
+    "height": 213,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 3,
+    "arxiv_id": "2507.17403v1",
+    "page": 4,
+    "file": "paper3_fig_p4_1.png",
+    "width": 807,
+    "height": 273,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 4,
+    "arxiv_id": "2304.01150v2",
+    "page": 6,
+    "file": "paper4_fig_p6_1.png",
+    "width": 953,
+    "height": 435,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 4,
+    "arxiv_id": "2304.01150v2",
+    "page": 7,
+    "file": "paper4_fig_p7_1.png",
+    "width": 951,
+    "height": 401,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 4,
+    "arxiv_id": "2304.01150v2",
+    "page": 20,
+    "file": "paper4_fig_p20_1.png",
+    "width": 2880,
+    "height": 1714,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 5,
+    "arxiv_id": "2209.13227v1",
+    "page": 11,
+    "file": "paper5_fig_p11_1.png",
+    "width": 3000,
+    "height": 2457,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 5,
+    "arxiv_id": "2209.13227v1",
+    "page": 11,
+    "file": "paper5_fig_p11_2.png",
+    "width": 1149,
+    "height": 607,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 5,
+    "arxiv_id": "2209.13227v1",
+    "page": 15,
+    "file": "paper5_fig_p15_1.jpeg",
+    "width": 780,
+    "height": 1134,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 6,
+    "arxiv_id": "2506.22470v1",
+    "page": 1,
+    "file": "paper6_diagram_p1.png",
+    "type": "rendered_page"
+  },
+  {
+    "paper_num": 7,
+    "arxiv_id": "2610.13923v1",
+    "page": 3,
+    "file": "paper7_fig_p3_1.png",
+    "width": 1448,
+    "height": 1086,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 7,
+    "arxiv_id": "2610.13923v1",
+    "page": 9,
+    "file": "paper7_fig_p9_1.png",
+    "width": 1696,
+    "height": 927,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 8,
+    "arxiv_id": "2510.20436v1",
+    "page": 1,
+    "file": "paper8_fig_p1_1.png",
+    "width": 2269,
+    "height": 1249,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 8,
+    "arxiv_id": "2510.20436v1",
+    "page": 3,
+    "file": "paper8_fig_p3_1.png",
+    "width": 3949,
+    "height": 3950,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 8,
+    "arxiv_id": "2510.20436v1",
+    "page": 6,
+    "file": "paper8_fig_p6_1.png",
+    "width": 2400,
+    "height": 1200,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 9,
+    "arxiv_id": "2304.13501v2",
+    "page": 5,
+    "file": "paper9_fig_p5_1.png",
+    "width": 1287,
+    "height": 1549,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 9,
+    "arxiv_id": "2304.13501v2",
+    "page": 5,
+    "file": "paper9_fig_p5_2.png",
+    "width": 367,
+    "height": 500,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 9,
+    "arxiv_id": "2304.13501v2",
+    "page": 5,
+    "file": "paper9_fig_p5_3.png",
+    "width": 425,
+    "height": 500,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 10,
+    "arxiv_id": "2410.15546v3",
+    "page": 3,
+    "file": "paper10_fig_p3_1.png",
+    "width": 679,
+    "height": 793,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 10,
+    "arxiv_id": "2410.15546v3",
+    "page": 6,
+    "file": "paper10_fig_p6_1.png",
+    "width": 883,
+    "height": 859,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 10,
+    "arxiv_id": "2410.15546v3",
+    "page": 7,
+    "file": "paper10_fig_p7_1.png",
+    "width": 1644,
+    "height": 751,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 11,
+    "arxiv_id": "2403.20199v2",
+    "page": 5,
+    "file": "paper11_fig_p5_1.jpeg",
+    "width": 601,
+    "height": 176,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 11,
+    "arxiv_id": "2403.20199v2",
+    "page": 6,
+    "file": "paper11_fig_p6_1.jpeg",
+    "width": 618,
+    "height": 390,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 11,
+    "arxiv_id": "2403.20199v2",
+    "page": 6,
+    "file": "paper11_fig_p6_2.jpeg",
+    "width": 630,
+    "height": 235,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 12,
+    "arxiv_id": "2407.17166v1",
+    "page": 9,
+    "file": "paper12_fig_p9_1.png",
+    "width": 1193,
+    "height": 830,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 13,
+    "arxiv_id": "2603.01334v2",
+    "page": 1,
+    "file": "paper13_diagram_p1.png",
+    "type": "rendered_page"
+  },
+  {
+    "paper_num": 14,
+    "arxiv_id": "2408.09281v1",
+    "page": 2,
+    "file": "paper14_fig_p2_1.png",
+    "width": 326,
+    "height": 199,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 14,
+    "arxiv_id": "2408.09281v1",
+    "page": 2,
+    "file": "paper14_fig_p2_2.png",
+    "width": 326,
+    "height": 199,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 14,
+    "arxiv_id": "2408.09281v1",
+    "page": 2,
+    "file": "paper14_fig_p2_3.png",
+    "width": 380,
+    "height": 260,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 15,
+    "arxiv_id": "2407.02498v1",
+    "page": 5,
+    "file": "paper15_fig_p5_1.jpeg",
+    "width": 415,
+    "height": 343,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 15,
+    "arxiv_id": "2407.02498v1",
+    "page": 5,
+    "file": "paper15_fig_p5_2.png",
+    "width": 537,
+    "height": 416,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 15,
+    "arxiv_id": "2407.02498v1",
+    "page": 5,
+    "file": "paper15_fig_p5_3.jpeg",
+    "width": 525,
+    "height": 537,
+    "type": "embedded"
+  },
+  {
+    "paper_num": 16,
+    "arxiv_id": "2609.07056v2",
+    "page": 1,
+    "file": "paper16_diagram_p1.png",
+    "type": "rendered_page"
+  }
+]

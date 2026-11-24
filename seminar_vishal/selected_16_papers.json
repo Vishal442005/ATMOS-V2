@@ -1,0 +1,257 @@
+[
+  {
+    "arxiv_id": "2510.27325v1",
+    "title": "Selected Results from the REDMARS2 Project: Recursive Delay-Tolerant Networking using Bundle-in-Bundle Encapsulation",
+    "authors": [
+      "Marius Feldmann",
+      "Tobias N\u00f6thlich",
+      "Felix Walter",
+      "Maximilian Nitsch",
+      "Juan A. Fraire",
+      "Georg A. Murzik",
+      "Fiona Fuchs"
+    ],
+    "year": "2025",
+    "summary": "This whitepaper presents parts of the results of the REDMARS2 project conducted in 2021-2022, exploring the integration of Recursive Internetwork Architecture (RINA) concepts into Delay- and Disruption-Tolerant Networking (DTN) protocols. Using Bundle-in-Bundle Encapsulation (BIBE), we implemented scope-based separation mechanisms resulting in scalable DTNs. A key contribution of this work is the demonstration of practical BIBE-based use cases, including a realistic Solar System Internet communication scenario involving unmanned aerial vehicles (UAVs) and satellite relays. The evaluation, supported by field tests in collaboration with the European Space Agency (ESA), confirmed the viability of BIBE as a foundation for scalable, recursive, and interoperable DTN architectures.",
+    "pdf_url": "https://arxiv.org/pdf/2510.27325v1.pdf",
+    "space_score": 16,
+    "local_pdf": "seminar_vishal/papers\\paper_1_2510.27325v1.pdf"
+  },
+  {
+    "arxiv_id": "1204.3264v1",
+    "title": "Assessing and improving an approach to delay-tolerant networking",
+    "authors": [
+      "Lloyd Wood"
+    ],
+    "year": "2012",
+    "summary": "Delay-tolerant networking (DTN) is a term invented to describe and encompass all types of long-delay, disconnected, disrupted or intermittently-connected networks, where mobility and outages or scheduled contacts may be experienced. 'DTN' is also used to refer to the Bundle Protocol, which has been proposed as the one unifying solution for disparate DTN networking scenarios, after originally being designed solely for use in deep space for the 'Interplanetary Internet.' We evaluated the Bundle Protocol by testing it in space and on the ground. We have found architectural weaknesses in the Bundle Protocol that may prevent engineering deployment of this protocol in realistic delay-tolerant networking scenarios, and have proposed approaches to address these weaknesses.",
+    "pdf_url": "https://arxiv.org/pdf/1204.3264v1.pdf",
+    "space_score": 13,
+    "local_pdf": "seminar_vishal/papers\\paper_2_1204.3264v1.pdf"
+  },
+  {
+    "arxiv_id": "2507.17403v1",
+    "title": "Custody Transfer and Compressed Status Reporting for Bundle Protocol Version 7",
+    "authors": [
+      "Alice Le Bihan",
+      "Felix Flentge",
+      "Juan A. Fraire"
+    ],
+    "year": "2025",
+    "summary": "As space missions increase, there is a growing need to replace point-to-point communication with an efficient and reliable network-centric communication approach. Disruption/Delay Tolerant Networking (DTN) with the Bundle Protocol (BP) has been selected as an interoperable network protocol in the LunaNet Interoperability Specification. It is also considered for future Earth Observation and Mars communication scenarios. In a DTN, the \"bundle\" -- the fundamental data unit of BP -- requires dedicated mechanisms to ensure reliability due to the challenges posed by intermittent connectivity and long delays. The previous version of BP, BPv6, contained a mechanism for reliable transfer between \"custodial nodes\" called \"custody transfer\". However, this approach has been removed from the core protocol specification for BPv7, which requires a corresponding BP reliability extension to be defined separately. This paper introduces a new custody transfer process for BPv7 (expected to be published by CCSDS as an experimental specification in 2025). The core features of this new custody transfer method for BPv7 are: (1) A strategy to efficiently identify sets of bundles by sequence numbering (2) A new Custody Transfer Extension Block and a corresponding administrative record, Compressed Custody Signal, to efficiently report on the acceptance or rejection of custody using sequence numbering (3) A new Compressed Reporting Extension Block requesting reporting on bundle processing steps using a corresponding administrative record with sequence numbering for efficiency. The paper will describe those concepts and their design, specification, and implementation in detail. These mechanisms have been prototyped in the ESA BP implementation and tested in Earth Observation and Lunar communication simulation scenarios. The results will be presented, as will an outlook on future work in the DTN reliable transfer domain.",
+    "pdf_url": "https://arxiv.org/pdf/2507.17403v1.pdf",
+    "space_score": 13,
+    "local_pdf": "seminar_vishal/papers\\paper_3_2507.17403v1.pdf"
+  },
+  {
+    "arxiv_id": "2304.01150v2",
+    "title": "Algebraic and Geometric Models for Space Networking",
+    "authors": [
+      "William Bernardoni",
+      "Robert Cardona",
+      "Jacob Cleveland",
+      "Justin Curry",
+      "Robert Green",
+      "Brian Heller",
+      "Alan Hylton",
+      "Tung Lam",
+      "Robert Kassouf-Short"
+    ],
+    "year": "2023",
+    "summary": "In this paper we introduce some new algebraic and geometric perspectives on networked space communications. Our main contribution is a novel definition of a time-varying graph (TVG), defined in terms of a matrix with values in subsets of the real line P(R). We leverage semi-ring properties of P(R) to model multi-hop communication in a TVG using matrix multiplication and a truncated Kleene star. This leads to novel statistics on the communication capacity of TVGs called lifetime curves, which we generate for large samples of randomly chosen STARLINK satellites, whose connectivity is modeled over day-long simulations. Determining when a large subsample of STARLINK is temporally strongly connected is further analyzed using novel metrics introduced here that are inspired by topological data analysis (TDA). To better model networking scenarios between the Earth and Mars, we introduce various semi-rings capable of modeling propagation delay as well as protocols common to Delay Tolerant Networking (DTN), such as store-and-forward. Finally, we illustrate the applicability of zigzag persistence for featurizing different space networks and demonstrate the efficacy of K-Nearest Neighbors (KNN) classification for distinguishing Earth-Mars and Earth-Moon satellite systems using time-varying topology alone.",
+    "pdf_url": "https://arxiv.org/pdf/2304.01150v2.pdf",
+    "space_score": 12,
+    "local_pdf": "seminar_vishal/papers\\paper_4_2304.01150v2.pdf"
+  },
+  {
+    "arxiv_id": "2209.13227v1",
+    "title": "A Modeling of TSRCG and Resource Optimization for Multi-task Delivery Guarantee Algorithm Based on CGR Strategy in LEO Satellite Network",
+    "authors": [
+      "Xue Sun",
+      "Changhao Li",
+      "Lei Yan",
+      "Suzhi Cao"
+    ],
+    "year": "2022",
+    "summary": "With the reduction of satellite costs and the enhancement of processing capabilities, low earth orbit (LEO) satellite constellations can independently build inter-satellite networks without relying on traditional ground stations restricted by geographical distribution and can establish inter-satellite links (ISLs) and complete computing and routing on-board. The characteristics of frequent on-off ISLs, the highly dynamic network topology of satellite networks make it face the challenges of routing strategy design as a delay/interruption tolerant network (DTN). As a deterministic dynamic routing algorithm, contact graph routing (CGR) uses a contact plan to calculate the path and forward data, but it still has problems such as high computational overhead, low prediction accuracy caused by ignoring queue delay, and overbooked problem caused by limited cache. Therefore, we first start with the time-space resource contact graph (TSRCG) to accurately characterize the time-varying and predictable characteristics of the satellite network and the network resource parameters under multi-tasks. Then, we optimize the route-list computation and dynamic route computation process to ensure task delivery and reduce the consumption of various resources, such as contact capacity, computing resources, and storage resources. And the resource optimization for the multi-task delivery guarantee algorithm based on CGR (RMDG-CGR) strategy we propose is compared with standard CGR in ION 4.0.1. Finally, the simulation results show that the RMDG-CGR can achieve higher task delivery in advance and successful task delivery rate, save contact volume occupancy rate, computing and storage resource, and the above effects are more prominent, especially in the task scenario with critical bundles.",
+    "pdf_url": "https://arxiv.org/pdf/2209.13227v1.pdf",
+    "space_score": 11,
+    "local_pdf": "seminar_vishal/papers\\paper_5_2209.13227v1.pdf"
+  },
+  {
+    "arxiv_id": "2506.22470v1",
+    "title": "Reliable Transmission of LTP Using Reinforcement Learning-Based Adaptive FEC",
+    "authors": [
+      "Liang Chen",
+      "Yu Song",
+      "Kanglian Zhao",
+      "Juan A. Fraire",
+      "Wenfeng Li"
+    ],
+    "year": "2025",
+    "summary": "Delay/Disruption Tolerant Networking (DTN) employs the Licklider Transmission Protocol (LTP) with Automatic Repeat reQuest (ARQ) for reliable data delivery in challenging interplanetary networks. While previous studies have integrated packet-level Forward Erasure Correction (FEC) into LTP to reduce retransmission time costs, existing static and delay-feedback-based dynamic coding methods struggle with highly variable and unpredictable deep space channel conditions. This paper proposes a reinforcement learning (RL)-based adaptive FEC algorithm to address these limitations. The algorithm utilizes historical feedback and system state to predict future channel conditions and proactively adjust the code rate. This approach aims to anticipate channel quality degradation, thereby preventing decoding failures and subsequent LTP retransmissions and improving coding efficiency by minimizing redundancy during favorable channel conditions. Performance evaluations conducted in simulated Earth-Moon and Earth-Mars link scenarios demonstrate this algorithm's effectiveness in optimizing data transmission for interplanetary networks. Compared to existing methods, this approach demonstrates significant improvement, with matrix decoding failures reduced by at least 2/3.",
+    "pdf_url": "https://arxiv.org/pdf/2506.22470v1.pdf",
+    "space_score": 11,
+    "local_pdf": "seminar_vishal/papers\\paper_6_2506.22470v1.pdf"
+  },
+  {
+    "arxiv_id": "2610.13923v1",
+    "title": "Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning",
+    "authors": [
+      "Sajjad Baghaee",
+      "Aimin Li",
+      "Shanmugarajan Balasubramanian",
+      "Elif Uysal"
+    ],
+    "year": "2026",
+    "summary": "Deep-space communications operate under intermittent connectivity, long propagation delays, and relay storage constraints. In such networks, the Bundle Protocol enables store-carry-forward communication, requiring relay nodes to manage limited storage and scarce contact opportunities. Relay-side scheduling and dropping decisions are inherently goal-oriented: transmission resources should be allocated to bundles most valuable to downstream mission objectives. Conventional schedulers, such as FIFO, do not explicitly optimize task utility and may provide unfair service across heterogeneous planetary sources. This paper presents a closed-loop modeling and learning framework for relay-side bundle and flow management in a contact-driven deep-space network, where lunar and Martian updates are forwarded through a shared-buffer relay to Earth. We quantify destination-side information freshness using excess age $\u0394_i^e(t)=[\u0394_i(t)-d_i(t)]^+$, where $\u0394_i(t)$ denotes the Age of Information of source $i$ and $d_i(t)$ is a source-dependent delay baseline. Based on this metric, we define a goal-oriented loss that supports source-dependent nonlinear penalties, allowing prioritization according to mission relevance. We formulate relay control as a constrained semi-Markov decision process (CSMDP) and solve it using masked Lagrangian Proximal Policy Optimization (PPO). Feasibility-aware action masking restricts transmissions to bundles that can complete within the remaining contact window. DTNSim simulations indicate improved age-based utility and inter-flow fairness compared with baseline schedulers. The proposed framework jointly optimizes relay-side bundle scheduling, dropping, and flow control under contact-driven dynamics with explicit fairness considerations across heterogeneous sources.",
+    "pdf_url": "https://arxiv.org/pdf/2610.13923v1.pdf",
+    "space_score": 11,
+    "local_pdf": "seminar_vishal/papers\\paper_7_2610.13923v1.pdf"
+  },
+  {
+    "arxiv_id": "2510.20436v1",
+    "title": "Learning Decentralized Routing Policies via Graph Attention-based Multi-Agent Reinforcement Learning in Lunar Delay-Tolerant Networks",
+    "authors": [
+      "Federico Lozano-Cuadra",
+      "Beatriz Soret",
+      "Marc Sanchez Net",
+      "Abhishek Cauligi",
+      "Federico Rossi"
+    ],
+    "year": "2025",
+    "summary": "We present a fully decentralized routing framework for multi-robot exploration missions operating under the constraints of a Lunar Delay-Tolerant Network (LDTN). In this setting, autonomous rovers must relay collected data to a lander under intermittent connectivity and unknown mobility patterns. We formulate the problem as a Partially Observable Markov Decision Problem (POMDP) and propose a Graph Attention-based Multi-Agent Reinforcement Learning (GAT-MARL) policy that performs Centralized Training, Decentralized Execution (CTDE). Our method relies only on local observations and does not require global topology updates or packet replication, unlike classical approaches such as shortest path and controlled flooding-based algorithms. Through Monte Carlo simulations in randomized exploration environments, GAT-MARL provides higher delivery rates, no duplications, and fewer packet losses, and is able to leverage short-term mobility forecasts; offering a scalable solution for future space robotic systems for planetary exploration, as demonstrated by successful generalization to larger rover teams.",
+    "pdf_url": "https://arxiv.org/pdf/2510.20436v1.pdf",
+    "space_score": 10,
+    "local_pdf": "seminar_vishal/papers\\paper_8_2510.20436v1.pdf"
+  },
+  {
+    "arxiv_id": "2304.13501v2",
+    "title": "Routing Heterogeneous Traffic in Delay-Tolerant Satellite Networks",
+    "authors": [
+      "Pablo G. Madoery",
+      "Gunes Karabulut Kurt",
+      "Halim Yanikomeroglu",
+      "Peng Hu",
+      "Khaled Ahmed",
+      "St\u00e9phane Martel",
+      "Guillaume Lamontagne"
+    ],
+    "year": "2023",
+    "summary": "Delay-tolerant networking (DTN) offers a novel architecture that can be used to enhance store-carry-forward routing in satellite networks. Since these networks can take advantage of scheduled contact plans, distributed algorithms like the Contact Graph Routing (CGR) can be utilized to optimize data delivery performance. However, despite the numerous improvements made to CGR, there is a lack of proposals to prioritize traffic with distinct quality of service (QoS) requirements. This study presents adaptations to CGR to improve QoS-compliant delivery ratio when transmitting traffic with different latency constraints, along with an integer linear programming optimization model that serves as a performance upper bound. The extensive results obtained by simulating different scenarios show that the proposed algorithms can effectively improve the delivery ratio and energy efficiency while meeting latency constraints.",
+    "pdf_url": "https://arxiv.org/pdf/2304.13501v2.pdf",
+    "space_score": 10,
+    "local_pdf": "seminar_vishal/papers\\paper_9_2304.13501v2.pdf"
+  },
+  {
+    "arxiv_id": "2410.15546v3",
+    "title": "Improved Contact Graph Routing in Delay Tolerant Networks with Capacity and Buffer Constraints",
+    "authors": [
+      "Tania Alhajj",
+      "Vincent Corlay"
+    ],
+    "year": "2024",
+    "summary": "Satellite communications present challenging characteristics. Continuous end-to-end connectivity may not be available due to the large distances between satellites. Moreover, resources such as link capacity and buffer memory may be limited. Routing in satellite networks is therefore both complex and crucial to avoid packet losses and long delays. The Delay Tolerant Network (DTN) paradigm has emerged as an efficient solution for managing these challenging networks. Contact Graph Routing (CGR), a deterministic routing algorithm, is one of the most popular DTN algorithms. CGR is compatible with the store, carry, and forward principle, whereby a node receives a message and stores it in its buffer until a transmission opportunity becomes available. However, CGR relies on simplified models to incorporate potential constraints in the route search. For instance, the linear volume assumption is often used to consider capacity constraints. Moreover, capacity management and buffer management are mostly performed during the forwarding phase, once an issue has occurred. These reactive management techniques cause many collisions and increase the average delivery time. In this paper, we propose taking measures before or during the route search in order to find routes that respect both contact-capacity and node-buffer limits. We introduce the contact splitting and edge pruning operations to effectively account for the routing constraints. This ensures that CGR outputs the optimal solution in terms of delivery time among the subset of valid solutions. The problem is formalized as the Feasible Earliest-Arrival Path with Capacity and Buffer constraints (FEAP-CB) and optimality is proved. The proposed approach can also be used to book resources to be used in case of issues during the forwarding phase.",
+    "pdf_url": "https://arxiv.org/pdf/2410.15546v3.pdf",
+    "space_score": 10,
+    "local_pdf": "seminar_vishal/papers\\paper_10_2410.15546v3.pdf"
+  },
+  {
+    "arxiv_id": "2403.20199v2",
+    "title": "NeuraLunaDTNet: Feedforward Neural Network-Based Routing Protocol for Delay-Tolerant Lunar Communication Networks",
+    "authors": [
+      "Parth Patel",
+      "Milena Radenkovic"
+    ],
+    "year": "2024",
+    "summary": "Space Communication poses challenges such as severe delays, hard-to-predict routes and communication disruptions. The Delay Tolerant Network architecture, having been specifically designed keeping such scenarios in mind, is suitable to address some challenges. The traditional DTN routing protocols fall short of delivering optimal performance, due to the inherent complexities of space communication. Researchers have aimed at using recent advancements in AI to mitigate some routing challenges [9]. We propose utilising a feedforward neural network to develop a novel protocol NeuraLunaDTNet, which enhances the efficiency of the PRoPHET routing protocol for lunar communication, by learning contact plans in dynamically changing spatio-temporal graph.",
+    "pdf_url": "https://arxiv.org/pdf/2403.20199v2.pdf",
+    "space_score": 10,
+    "local_pdf": "seminar_vishal/papers\\paper_11_2403.20199v2.pdf"
+  },
+  {
+    "arxiv_id": "2407.17166v1",
+    "title": "The Architectural Refinement of \u03bcD3TN: Toward a Software-Defined DTN Protocol Stack",
+    "authors": [
+      "Felix Walter",
+      "Marius Feldmann",
+      "Juan A. Fraire",
+      "Scott Burleigh"
+    ],
+    "year": "2024",
+    "summary": "This paper provides a comprehensive overview of the uD3TN project's development, detailing its transformation into a flexible and modular software implementation of the Delay-/Disruption-Tolerant Networking (DTN) Bundle Protocol. Originating from uPCN, designed for microcontrollers, uD3TN has undergone significant architectural refinement to increase flexibility, compatibility, and performance across various DTN applications. Key developments include achieving platform independence, supporting multiple Bundle Protocol versions concurrently, introducing abstract Convergence Layer Adapter (CLA) interfaces, and developing the so called Application Agent Protocol (AAP) for interaction with the application layer. Additional enhancements, informed by field tests, include Bundle-in-Bundle Encapsulation and exploring a port to the Rust programming language, indicating the project's ongoing adaptation to practical needs. The paper also introduces the Generic Bundle Forwarding Interface and AAPv2, showcasing the latest innovations in the project. Moreover, it provides a comparison of uD3TN's architecture with the Interplanetary Overlay Network (ION) protocol stack, highlighting some general architectural principles at the foundation of DTN protocol implementations.",
+    "pdf_url": "https://arxiv.org/pdf/2407.17166v1.pdf",
+    "space_score": 8,
+    "local_pdf": "seminar_vishal/papers\\paper_12_2407.17166v1.pdf"
+  },
+  {
+    "arxiv_id": "2603.01334v2",
+    "title": "Energy Efficient Traffic Scheduling For Optical LEO Satellite Downlinks",
+    "authors": [
+      "Ethan Fettes",
+      "Pablo G. Madoery",
+      "Halim Yanikomeroglu",
+      "Gunes Karabulut Kurt",
+      "Abhishek Naik",
+      "St\u00e9phane Martel"
+    ],
+    "year": "2026",
+    "summary": "In recent years, the number of satellites in orbit has increased rapidly, with megaconstellations like Starlink providing near-global, delay-sensitive communication services. However, not all satellite communication use cases have stringent delay requirements; services such as Earth observation (EO) and remote Internet of Things (IoT) fall into this category. These relaxed delay quality of service (QoS) objectives allow services to be delivered using sparse constellations, enabled by delay-tolerant networking protocols. In the context of rapidly growing data volumes that must be delivered through satellite networks, a key challenge is having sufficient space-to-ground link capacity. This has led to proposals for using free-space optical (FSO) communications, which offer high data rates. However, FSO communications are highly vulnerable to weather-related disruptions. This results in certain communication opportunities being energy inefficient. Given the energy-constrained nature of satellites, developing schemes to improve energy efficiency is highly desirable. In this work, both static and adaptive schemes were developed to balance maintaining the delivery ratio and maximizing energy efficiency. The proposed schemes fall into the following categories: threshold schemes, heuristic sorting algorithms, and reinforcement learning-based schemes. The schemes were evaluated under a variety of different data volumes and cloud cover distribution configurations as well as a case study using historical weather data. It was found that static schemes suffered from low delivery ratio performance under dynamic conditions when compared to adaptive techniques. However, this performance improvement came at the cost of increased complexity and onboard computations.",
+    "pdf_url": "https://arxiv.org/pdf/2603.01334v2.pdf",
+    "space_score": 8,
+    "local_pdf": "seminar_vishal/papers\\paper_13_2603.01334v2.pdf"
+  },
+  {
+    "arxiv_id": "2408.09281v1",
+    "title": "Next-Generation Satellite IoT Networks: A HAPS-Enabled Solution to Enhance Optical Data Transfer",
+    "authors": [
+      "Ethan Fettes",
+      "Pablo G. Madoery",
+      "Halim Yanikomeroglu",
+      "Gunes Karabulut Kurt",
+      "Colin Bellinger",
+      "St\u00e9phane Martel",
+      "Khaled Ahmed",
+      "Sameera Siddiqui"
+    ],
+    "year": "2024",
+    "summary": "For decades, satellites have facilitated remote internet of things (IoT) services. However, the recent proliferation of increasingly capable sensors and a surge in the number deployed, has led to a substantial growth in the volume of data that needs to be transmitted via satellites. In response to this growing demand, free space optical communication systems have been proposed, as they allow for the use of large bandwidths of unlicensed spectrum, enabling high data rates. However, optical communications are highly vulnerable to weather-induced disruptions, thereby limiting their high potential. This paper proposes the use of high altitude platform station (HAPS) systems in conjunction with delay-tolerant networking techniques to increase the amount of data that can be transmitted to the ground from satellites when compared to the use of traditional ground station network architectures. The architectural proposal is evaluated in terms of delivery ratio and buffer occupancy, and the subsequent discussion analyzes the advantages, challenges and potential areas for future research.",
+    "pdf_url": "https://arxiv.org/pdf/2408.09281v1.pdf",
+    "space_score": 8,
+    "local_pdf": "seminar_vishal/papers\\paper_14_2408.09281v1.pdf"
+  },
+  {
+    "arxiv_id": "2407.02498v1",
+    "title": "A New Classification of Clustering-based for Different Problems in Different Wireless Ad-hoc Networks",
+    "authors": [
+      "Adda Boualem",
+      "Marwane Ayaida",
+      "Hichem Sedjelmaci",
+      "Chaimaa Khalfi",
+      "Kamilia Brahimi",
+      "Bochra Khelil",
+      "Sanaa Bouchama"
+    ],
+    "year": "2024",
+    "summary": "Ad-hoc networks are specifically designed to facilitate communication in environments where establishing a dedicated network infrastructure is exceedingly complex or impractical. The integration of clustering concepts into various ad-hoc network scenarios, including Wireless Sensor Networks (WSN), Mobile Ad-hoc Networks (MANET), Vehicular Ad-hoc Networks (VANET), Delay-Tolerant Networks (DTN), Wireless Ad-hoc Networks (WANET), Underwater Wireless Sensor Networks (UWSN), Unmanned Aerial Vehicle Networks (UAV), commonly known as \"drones,\" Space Networks (SN), and Satellite Networks (TN), presents abundant opportunities for refining strategies in event tracking and area monitoring across both deterministic and uncertain environments. This paper conducts a comparative analysis of diverse proposed strategies leveraging clustering concepts to address coverage challenges within deterministic and uncertain environments. As a result, it addresses current and future challenges inherent in clustering-based WANET, elucidating the merits, shortcomings, and weaknesses of clustering models. Lastly, it identifies potential avenues for addressing coverage issues in existing and emerging technologies.",
+    "pdf_url": "https://arxiv.org/pdf/2407.02498v1.pdf",
+    "space_score": 8,
+    "local_pdf": "seminar_vishal/papers\\paper_15_2407.02498v1.pdf"
+  },
+  {
+    "arxiv_id": "2609.07056v2",
+    "title": "Lightweight Onboard Routing and Topology Co-Construction for Autonomous GNSSs",
+    "authors": [
+      "Huan Yan",
+      "Juan A. Fraire",
+      "Rongqin Yang",
+      "Wenfeng Li",
+      "Kanglian Zhao"
+    ],
+    "year": "2026",
+    "summary": "Global navigation satellite systems (GNSSs) can already plan their inter-satellite link (ISL) topology onboard, leaving routing as the last step toward autonomous networking. In GNSS ISLs, each satellite links to at most one peer per time slot. We exploit this structure to replace end-to-end path search with a single backward sweep over the slots. The proposed method, DS-SMFP, propagates earliest-arrival times backward from each destination and outputs a STORE/FORWARD decision for every slot, satellite, and destination, in time linear in the number of slots and with working memory independent of the planning horizon. Because each slot needs only its own topology and the delivery state of the next one, routing can steer link selection while the topology is built. This slotwise dependency enables Master-Oriented Topology--Routing Co-Construction (MTRCC), which favors traffic to and from a master satellite performing onboard orbit determination. In a 24-h, 30-satellite BeiDou scenario, DS-SMFP matches the delays of Contact Graph Routing (CGR) and shortest path tree (SPT) routing while running over 180 times faster and using over 36 times less peak routing working memory. Compared with fair contact plan (FCP) topology, MTRCC reduces mean master-related traffic delays by over 10\\%, with an approximately 3\\% increase in mean PDOP. This paper provides a methodological foundation for efficient autonomous GNSS networking.",
+    "pdf_url": "https://arxiv.org/pdf/2609.07056v2.pdf",
+    "space_score": 8,
+    "local_pdf": "seminar_vishal/papers\\paper_16_2609.07056v2.pdf"
+  }
+]
